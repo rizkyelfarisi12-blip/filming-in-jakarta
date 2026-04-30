@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "sport",
+    "image": "locations/gallery/block-m/HNA00790.JPG",
+    "link": "locations/location-detail.html"
+  },
+   {
+    "title": "Blok M",
+    "location": "Block Jakarta Selatan",
+    "category": "transport",
+    "image": "locations/gallery/block-m/HNA00791.JPG",
+    "link": "locations/location-detail.html"
+  },
+   {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "heritage",
+    "image": "locations/gallery/block-m/HNA00858.JPG",
+    "link": "locations/location-detail.html"
+  },
+   {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "park",
+    "image": "locations/gallery/block-m/HNA00859.JPG",
+    "link": "locations/location-detail.html"
+  },
+   {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "landmark",
+    "image": "locations/gallery/block-m/HNA00860.JPG",
+    "link": "locations/location-detail.html"
+  },
+   {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "art",
+    "image": "locations/gallery/block-m/HNA00861.JPG",
+    "link": "locations/location-detail.html"
+  },
+  {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "art",
+    "image": "locations/gallery/block-m/HNA00861.JPG",
+    "link": "locations/location-detail.html"
+  },
+  {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "port",
+    "image": "locations/gallery/block-m/HNA00861.JPG",
+    "link": "locations/location-detail.html"
+  },
+  {
+    "title": "Gelora Bung Karno",
+    "location": "Senayan Jakarta Selatan",
+    "category": "urban",
+    "image": "locations/gallery/block-m/HNA00861.JPG",
+    "link": "locations/location-detail.html"
+  },
+  {
+    "title": "Ancol Beach",
+    "location": "Jakarta Utara",
+    "category": "coastal",
+    "image": "locations/gallery/block-m/HNA00862.JPG",
+    "link": "locations/location-detail.html"
+  }
+]
