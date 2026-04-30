@@ -212,3 +212,315 @@
             font-size: 30px;
             cursor: pointer;
         }
+
+         .category-card {
+  position: relative;
+  display: block;
+  height: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-decoration: none;
+
+  /* MONOCHROME DEFAULT */
+  filter: grayscale(100%) brightness(0.85) contrast(1.05);
+  transition: all 0.4s ease;
+}
+
+/* Hover → kembali ke warna asli */
+.category-card:hover {
+  filter: grayscale(0%) brightness(1) contrast(1);
+  transform: scale(1.03);
+}
+
+/* Overlay */
+.category-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.1)
+  );
+}
+
+/* Text */
+.category-card h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  color: #fff; /* pastikan putih */
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover h3 {
+  opacity: 0;
+  transform: translateY(10px); /* optional biar smooth turun */
+}
+
+
+    /* SECTION SPACING */
+.section-custom {
+    padding: 60px 0;
+}
+
+/* TITLE */
+.section-title {
+    color: #ff5a00;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* WHY SECTION */
+.why-box {
+    border: 1px solid #ff5a00;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.why-box i {
+    color: #ff5a00;
+    font-size: 20px;
+}
+
+.why-box:hover {
+    background: #fff3ec;
+}
+
+/* SERVICES */
+.service-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.service-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+/* efek zoom */
+.service-card:hover img {
+    transform: scale(1.08);
+}
+
+.service-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+/* INCENTIVE */
+.incentive-icon {
+    font-size: 40px;
+    color: #ff5a00;
+    margin-bottom: 15px;
+}
+
+.incentive-box {
+    text-align: center;
+}
+
+.incentive-list {
+    border: 1px solid #ff5a00;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+ /* TITLE */
+        .title-asset {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        /* DESCRIPTION */
+        .desc-asset {
+            max-width: 700px;
+            margin: 0 auto;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* GALLERY GRID */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 180px;
+            gap: 15px;
+        }
+
+        /* ITEM */
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+        }
+
+        /* VARIASI LAYOUT  */
+        .gallery-item:nth-child(1) {
+            grid-row: span 2;
+        }
+
+        .gallery-item:nth-child(4) {
+            grid-column: span 2;
+        }
+
+        /* MAP */
+        .map-section iframe {
+            border-radius: 12px;
+            background: #eee;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .gallery-item:nth-child(1),
+            .gallery-item:nth-child(4) {
+                grid-row: auto;
+                grid-column: auto;
+            }
+        }
+
+        /* WRAPPER */
+        .back-wrapper {
+            margin-bottom: 25px;
+        }
+
+        /* GRID */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 180px;
+        gap: 15px;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    /* layout variasi */
+    .gallery-item:nth-child(1) {
+        grid-row: span 2;
+    }
+
+    .gallery-item:nth-child(4) {
+        grid-column: span 2;
+    }
+
+    /* LIGHTBOX */
+    #lightbox-modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        padding: 40px;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        text-align: center;
+    }
+
+    #lightbox-modal img {
+        max-width: 90%;
+        max-height: 80%;
+        border-radius: 10px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 32px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav-arrow {
+        position: absolute;
+        top: 50%;
+        font-size: 40px;
+        color: #fff;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+
+    .prev { left: 30px; }
+    .next { right: 30px; }
+
+    .image-counter {
+        margin-top: 10px;
+        color: #fff;
+    }
+
+    /* hover efek */
+    .gallery-item img:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+        /* BUTTON */
+        .back-btn {
+            margin-top: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+
+            padding: 12px 20px;   
+            font-size: 16px;      
+            font-weight: 600;
+
+            color: #333;
+            background: #f5f5f5;
+            border-radius: 999px;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+        .back-icon {
+            font-size: 20px;
+            transition: transform 0.25s ease;
+        }
+        .back-btn:hover {
+            background: #f15d30;
+            color: #fff;
+        }
+        .back-btn:hover .back-icon {
+            transform: translateX(-4px);
+        }
+        .back-btn {
+            backdrop-filter: blur(6px);
+            background: rgba(245,245,245,0.8);
+        }
+        

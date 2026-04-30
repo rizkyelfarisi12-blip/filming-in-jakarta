@@ -281,6 +281,8 @@
     // 	  'autoclose': true
     // 	});
 
+
+
       // fungsi untuk load komponen
         function loadComponent(id, url) {
             fetch(url)
@@ -292,6 +294,8 @@
         }
 
         // load components
+        loadComponent("navbar", "components/navbar.html");
+        loadComponent("contact-card", "components/contact-card.html");
         loadComponent("footer", "components/footer.html");
         loadComponent("floating-wa", "components/floating-wa.html");
 
