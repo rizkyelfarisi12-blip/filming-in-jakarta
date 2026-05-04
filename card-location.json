@@ -16,7 +16,7 @@
    {
     "title": "Gelora Bung Karno",
     "location": "Senayan Jakarta Selatan",
-    "category": "heritage",
+    "category": "landmark",
     "image": "locations/gallery/block-m/HNA00858.JPG",
     "link": "locations/location-detail.html"
   },
@@ -44,7 +44,7 @@
   {
     "title": "Gelora Bung Karno",
     "location": "Senayan Jakarta Selatan",
-    "category": "art",
+    "category": "coastal",
     "image": "locations/gallery/block-m/HNA00861.JPG",
     "link": "locations/location-detail.html"
   },
@@ -58,14 +58,14 @@
   {
     "title": "Gelora Bung Karno",
     "location": "Senayan Jakarta Selatan",
-    "category": "urban",
+    "category": "business",
     "image": "locations/gallery/block-m/HNA00861.JPG",
     "link": "locations/location-detail.html"
   },
   {
     "title": "Ancol Beach",
     "location": "Jakarta Utara",
-    "category": "coastal",
+    "category": "residential",
     "image": "locations/gallery/block-m/HNA00862.JPG",
     "link": "locations/location-detail.html"
   }
