@@ -1,5 +1,12 @@
 [
   {
+    "title": "Taman Ismail Marzuki",
+    "location": "Jakarta Pusat",
+    "category": "park",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail-tim.html"
+  },
+  {
     "title": "Gelora Bung Karno",
     "location": "Senayan Jakarta Selatan",
     "category": "sport",
