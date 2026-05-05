@@ -1,0 +1,29 @@
+[
+  {
+    "id": "taman-ismail-marzuki",
+    "title": "Taman Ismail Marzuki",
+    "description": "Taman Ismail Marzuki (TIM), founded in 1968 by Governor Ali Sadikin in Cikini, Central Jakarta, is the city’s leading arts and cultural hub. Named after composer Ismail Marzuki, it includes Institut Kesenian Jakarta and venues like Graha Bhakti Budaya, theaters, galleries, Planetarium, and Jakarta City Library. Revitalized in 2022 with a design inspired by “Rayuan Pulau Kelapa,” TIM offers versatile indoor-outdoor spaces and central accessibility, making it ideal for diverse film and creative productions.",
+    "area": "5.2 Ha",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63464.873977306364!2d106.76231714863277!3d-6.190299799999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f51f0ca6b0eb%3A0xe5788342658120f1!2sTaman%20Ismail%20Marzuki%20(TIM)!5e0!3m2!1sen!2sid!4v1777865213711!5m2!1sen!2sid",
+    "gallery": "gallery/taman-ismail-marzuki/"
+  },
+  {
+    "id": "pasar-seni",
+    "title": "Pasar Seni",
+    "description": "Pasar Seni Ancol adalah tempat seni...",
+    "area": "3 Ha",
+    "facilities": [
+      "Art shops",
+      "Open space",
+      "Parking"
+    ],
+    "map": "https://www.google.com/maps/embed?...",
+    "gallery": "gallery/pasar-seni/"
+  }
+]
