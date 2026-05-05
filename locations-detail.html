@@ -20,7 +20,6 @@
  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
      rel="stylesheet">
 
-
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
  <!-- internal resources -->
@@ -73,7 +72,7 @@
 
         <!-- BACK -->
         <div class="back-wrapper">
-            <a href="../location-list.html" class="back-btn">
+            <a href="location-list.html" class="back-btn">
                 <span class="back-icon">←</span>
                 <span>Back to List</span>
             </a>
@@ -107,9 +106,7 @@
                 </ul>
             </div>
         </div>
-
     </div>
-
         </div>
 
         <!-- GALLERY -->
@@ -164,7 +161,7 @@
     <!-- Initialize Swiper -->
 
 </body>
-<script>
+<!-- <script>
     const basePath = "locations/gallery/taman-ismail-marzuki/";
     const jsonPath = basePath + "gallery.json";
 
@@ -190,5 +187,65 @@
         initLightbox(); // penting
     })
     .catch(err => console.error("JSON error:", err));
+</script> -->
+
+<script>
+const jsonPath = "../data/location-detail.json";
+
+fetch(jsonPath)
+.then(res => res.json())
+.then(data => {
+
+    // TITLE
+    document.getElementById("hero-title").textContent = data.title;
+    document.getElementById("title").textContent = data.title;
+
+    // DESCRIPTION
+    document.getElementById("description").textContent = data.description;
+
+    // AREA SIZE
+    document.getElementById("area-size").textContent = data.area_size;
+
+    // FACILITIES (array → string)
+    document.getElementById("facilities").innerHTML = data.facilities.join(", ");
+
+    // MAP
+    document.getElementById("map-frame").src = data.map_embed;
+
+    // GALLERY
+    loadGallery(data.gallery_folder);
+
+})
+.catch(err => console.error("JSON error:", err));
+
+
+// =====================
+// GALLERY FUNCTION
+// =====================
+function loadGallery(basePath) {
+
+    fetch(basePath + "gallery.json")
+    .then(res => res.json())
+    .then(images => {
+
+        const gallery = document.getElementById('gallery');
+
+        images.forEach(file => {
+            const src = basePath + file;
+
+            const div = document.createElement('div');
+            div.className = 'gallery-item';
+
+            div.innerHTML = `
+                <img src="${src}" class="gallery-img" data-full="${src}">
+            `;
+
+            gallery.appendChild(div);
+        });
+
+        initLightbox();
+    })
+    .catch(err => console.error("Gallery error:", err));
+}
 </script>
 </html>

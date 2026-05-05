@@ -12,9 +12,6 @@
             },
         });
 
-    
-
-
     function initLightbox() {
 
         const images = document.querySelectorAll(".gallery-img");
