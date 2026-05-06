@@ -14,6 +14,22 @@ Update Page
 - new folder in location/gallery
 - insert image for gallery in new folder .wepb
 - new .json named gallery
-- new .html locations/location-detail-place....html
-- change name inside js location detail html
 - insert new data in json card-location.json
+- insert new data in locations.json
+
+location-detail.html?id=(name place) format link
+format data locations.json:
+   {
+    "id": "link",
+    "title": "title",
+    "description": "desk",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },

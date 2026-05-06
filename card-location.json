@@ -4,76 +4,132 @@
     "location": "Jakarta Pusat",
     "category": "park",
     "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
-    "link": "locations/location-detail-tim.html"
+    "link": "locations/location-detail.html?id=tim"
   },
   {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "sport",
-    "image": "locations/gallery/block-m/HNA00790.JPG",
-    "link": "locations/location-detail.html"
-  },
-   {
-    "title": "Blok M",
-    "location": "Block Jakarta Selatan",
-    "category": "transport",
-    "image": "locations/gallery/block-m/HNA00791.JPG",
-    "link": "locations/location-detail.html"
-  },
-   {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "landmark",
-    "image": "locations/gallery/block-m/HNA00858.JPG",
-    "link": "locations/location-detail.html"
-  },
-   {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "park",
-    "image": "locations/gallery/block-m/HNA00859.JPG",
-    "link": "locations/location-detail.html"
-  },
-   {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "landmark",
-    "image": "locations/gallery/block-m/HNA00860.JPG",
-    "link": "locations/location-detail.html"
-  },
-   {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "art",
-    "image": "locations/gallery/block-m/HNA00861.JPG",
-    "link": "locations/location-detail.html"
-  },
-  {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "coastal",
-    "image": "locations/gallery/block-m/HNA00861.JPG",
-    "link": "locations/location-detail.html"
-  },
-  {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
-    "category": "port",
-    "image": "locations/gallery/block-m/HNA00861.JPG",
-    "link": "locations/location-detail.html"
-  },
-  {
-    "title": "Gelora Bung Karno",
-    "location": "Senayan Jakarta Selatan",
+    "title": "Bundaran HI",
+    "location": "Jakarta Pusat",
     "category": "business",
-    "image": "locations/gallery/block-m/HNA00861.JPG",
-    "link": "locations/location-detail.html"
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=bhi"
+  },
+  {
+    "title": "MRT Blok M",
+    "location": "Jakarta Selatan",
+    "category": "transport",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=mrt-blok-m"
+  },
+  {
+    "title": "Pasar Glodok",
+    "location": "Jakarta Barat",
+    "category": "business",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=psr-glodok"
+  },
+  {
+    "title": "Kota Tua",
+    "location": "Jakarta Barat",
+    "category": "landmark",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=kota-tua"
+  },
+    {
+      "title": "Taman Bendera Pusaka",
+      "location": "Jakarta Selatan",
+      "category": "park",
+      "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+      "link": "locations/location-detail.html?id=tmn-bendera-pusaka"
+    },
+    {
+    "title": "Jakarta International Stadium",
+    "location": "Jakarta Utara",
+    "category": "sport",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=jis"
+  },
+  {
+    "title": "Benteng Martello",
+    "location": "Kepulauan Seribu",
+    "category": "landmark",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=benteng-martello"
+  },
+  {
+    "title": "Pelabuhan Sunda Kelapa",
+    "location": "Jakarta Utara",
+    "category": "port",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=pelabuhan-sunda-kelapa"
+  },
+  {
+    "title": "SCBD",
+    "location": "Jakarta Selatan",
+    "category": "business",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=scbd"
   },
   {
     "title": "Ancol Beach",
     "location": "Jakarta Utara",
-    "category": "residential",
+    "category": "coastal",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=ancol"
+  },
+  {
+    "title": "Dermaga Phinisi",
+    "location": "Jakarta Utara",
+    "category": "port",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=dermaga-phinisi"
+  },
+  {
+    "title": "Lapangan Banteng",
+    "location": "Jakarta Pusat",
+    "category": "park",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=lapangan-banteng"
+  },
+  {
+    "title": "Buy Local JXB",
+    "location": "Jakarta Pusat",
+    "category": "business",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=buy-local-jxb"
+  },
+  {
+    "title": "JPO Karet",
+    "location": "Jakarta Pusat",
+    "category": "business",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=jpo-karet"
+  },
+  {
+    "title": "Sport Center JXB",
+    "location": "Jakarta Barat",
+    "category": "sport",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=sport-center-jxb"
+  },
+  {
+    "title": "Setu Babakan",
+    "location": "Jakarta Selatan",
+    "category": "park",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=setu-babakan"
+  },
+  {
+    "title": "Pasar Seni",
+    "location": "Jakarta Utara",
+    "category": "art",
+    "image": "locations/gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "link": "locations/location-detail.html?id=psr-seni"
+  },
+  {
+    "title": "Ragunan Zoo",
+    "location": "Jakarta Selatan",
+    "category": "park",
     "image": "locations/gallery/block-m/HNA00862.JPG",
-    "link": "locations/location-detail.html"
+    "link": "locations/location-detail.html?id=ragunan"
   }
 ]

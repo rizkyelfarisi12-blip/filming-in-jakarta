@@ -1,6 +1,6 @@
 [
   {
-    "id": "taman-ismail-marzuki",
+    "id": "tim",
     "title": "Taman Ismail Marzuki",
     "description": "Taman Ismail Marzuki (TIM), founded in 1968 by Governor Ali Sadikin in Cikini, Central Jakarta, is the city’s leading arts and cultural hub. Named after composer Ismail Marzuki, it includes Institut Kesenian Jakarta and venues like Graha Bhakti Budaya, theaters, galleries, Planetarium, and Jakarta City Library. Revitalized in 2022 with a design inspired by “Rayuan Pulau Kelapa,” TIM offers versatile indoor-outdoor spaces and central accessibility, making it ideal for diverse film and creative productions.",
     "area": "5.2 Ha",
@@ -12,9 +12,247 @@
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63464.873977306364!2d106.76231714863277!3d-6.190299799999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f51f0ca6b0eb%3A0xe5788342658120f1!2sTaman%20Ismail%20Marzuki%20(TIM)!5e0!3m2!1sen!2sid!4v1777865213711!5m2!1sen!2sid",
     "gallery": "gallery/taman-ismail-marzuki/"
+  },   
+  {
+    "id": "bhi",
+    "title": "Bundaran HI",
+    "description": "Bundaran HI is a prominent landmark in Jakarta, known for its modern architecture and strategic location.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
   },
   {
-    "id": "pasar-seni",
+    "id": "mrt-blok-m",
+    "title": "MRT Blok M",
+    "description": "MRT Blok M is a major transit hub in Jakarta, connecting various parts of the city.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },  
+  {
+    "id": "psr-glodok",
+    "title": "Pasar Glodok",
+    "description": "Pasar Glodok is a traditional market in Jakarta, known for its variety of goods and cultural significance.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "kota-tua",
+    "title": "Kota Tua",
+    "description": "Kota Tua is a historic district in Jakarta, known for its colonial architecture and cultural heritage.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "tmn-bendera-pusaka",
+    "title": "Taman Bendera Pusaka",
+    "description": "Taman Bendera Pusaka is a cultural park in Jakarta, known for its beautiful landscapes and recreational facilities.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "jis",
+    "title": "Jakarta International Stadium",
+    "description": "Jakarta International Stadium is a major sports venue in Jakarta, hosting various events and competitions.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "benteng-martello",
+    "title": "Benteng Martello",
+    "description": "Benteng Martello is a historical fort in Jakarta, known for its strategic location and architectural significance.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "pelabuhan-sunda-kelapa",
+    "title": "Pelabuhan Sunda Kelapa",
+    "description": "Pelabuhan Sunda Kelapa is a historic port in Jakarta, known for its cultural significance and maritime heritage.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "scbd",
+    "title": "SCBD",
+    "description": "SCBD is a major business district in Jakarta, known for its modern skyscrapers and financial institutions.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "ancol",
+    "title": "Ancol Beach",
+    "description": "Ancol is a popular recreational area in Jakarta, known for its beachfront location and various attractions.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "dermaga-phinisi",
+    "title": "Dermaga Phinisi",
+    "description": "Dermaga Phinisi is a scenic harbor in Jakarta, known for its traditional wooden boats and vibrant atmosphere.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "lapangan-banteng",
+    "title": "Lapangan Banteng",
+    "description": "Lapangan Banteng is a popular public square in Jakarta, known for its cultural events and recreational activities.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "buy-local-jxb",
+    "title": "Buy Local JXB",
+    "description": "Buy Local JXB is a local market in Jakarta, known for its variety of products and cultural atmosphere.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "jpo-karet",
+    "title": "JPO Karet",
+    "description": "JPO Karet is a commercial area in Jakarta, known for its shopping centers and business establishments.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "sport-center-jxb",
+    "title": "Sport Center JXB",
+    "description": "Sport Center JXB is a recreational facility in Jakarta, known for its sports amenities and activities.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "setu-babakan",
+    "title": "Setu Babakan",
+    "description": "Setu Babakan is a neighborhood in Jakarta, known for its residential areas and local amenities.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },
+    {
+    "id": "ragunan",
+    "title": "Ragunan",
+    "description": "Ragunan is a neighborhood in Jakarta, known for its park and recreational facilities.",
+    "area": "area",
+    "facilities": [
+      "Food stalls",
+      "Parking area",
+      "Electricity",
+      "Storage"
+    ],
+    "map": "link google maps",
+    "gallery": "gallery/name/"
+  },                 
+  {
+    "id": "psr-seni",
     "title": "Pasar Seni",
     "description": "Pasar Seni Ancol adalah tempat seni...",
     "area": "3 Ha",
@@ -26,4 +264,5 @@
     "map": "https://www.google.com/maps/embed?...",
     "gallery": "gallery/pasar-seni/"
   }
+  
 ]
