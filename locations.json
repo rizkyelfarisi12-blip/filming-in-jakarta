@@ -17,47 +17,47 @@
     "id": "bhi",
     "title": "Bundaran HI",
     "description": "Bundaran HI is a prominent landmark in Jakarta, known for its modern architecture and strategic location.",
-    "area": "area",
+    "area": "4.000 (area monumen dan kolam).",
     "facilities": [
-      "Underground station",
-       "Modern architecture",
-       "Platform screen doors",
-       "Air conditioning",
-       "Real-time displays",
-       "Free Wi-Fi",
-       "Selamat Datang Monument",
-       "Adjacent to Bundaran HI roundabout"
+      "Air mancur ikonik", 
+      "kolam pantul", 
+      "halte Transjakarta ikonik (dengan dek pandang)", 
+      "akses langsung ke stasiun MRT", 
+      "dan jalur pejalan kaki yang luas."
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5194290809186!2d106.82049517455609!3d-6.194985093792688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5561518a139%3A0x2911f3a14f98eea7!2sBundaran%20HI!5e0!3m2!1sen!2sid!4v1778044737019!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/bundaran-hi/"
   },
   {
     "id": "mrt-blok-m",
     "title": "MRT Blok M",
     "description": "MRT Blok M is a major transit hub in Jakarta, connecting various parts of the city.",
-    "area": "area",
+    "area": "4.550 meter persegi",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Akses langsung (bridge) ke Mal Blok M Plaza", 
+      "lift", 
+      "eskalator", 
+      "toilet", 
+      "ruang menyusui", 
+      "mesin tiket otomatis", 
+      "dan koneksi ke Terminal Bus Blok M."
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.14348096209!2d106.79560507455638!3d-6.244814993743525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16c6e4b11bf%3A0x8df7f816ae1b683f!2sBlok%20M%20BCA!5e0!3m2!1sen!2sid!4v1778052120131!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/blok-m/"
   },  
   {
     "id": "psr-glodok",
     "title": "Pasar Glodok",
     "description": "Pasar Glodok is a traditional market in Jakarta, known for its variety of goods and cultural significance.",
-    "area": "area",
+    "area": "1,7 hektare (17.086 m²).",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Pusat elektronik & perdagangan", 
+      "Foodcourt & kuliner", 
+      "Ruko heritage", 
+      "Akses transportasi umum"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.910032177338!2d106.81160657455541!3d-6.142786293844155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f606ef15086f%3A0x8c0f334f68d83f19!2sPs.%20Glodok%2C%20Jl.%20Pancoran%2C%20RT.2%2FRW.1%2C%20Glodok%2C%20Kec.%20Taman%20Sari%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011120!5e0!3m2!1sen!2sid!4v1778052300679!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/psr-glodok/"
   },
     {
     "id": "kota-tua",
@@ -73,7 +73,7 @@
       "Kali Bersejarah"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26037.906947883177!2d106.82994600256477!3d-6.13550507188883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f607534bb7c7%3A0x42eab7e4f2537065!2sKota%20Tua%2C%20Mangga%20Besar%2C%20Taman%20Sari%2C%20West%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1778052421844!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/kota-tua/"
   },
     {
     "id": "tmn-bendera-pusaka",
@@ -105,133 +105,134 @@
       "akses ramah disabilitas"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0526678816536!2d106.85983239388213!3d-6.1236144909151715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1fa3823b7263%3A0x9fc9c0986c6adaf9!2sJakarta%20International%20Stadium%20(JIS)!5e0!3m2!1sen!2sid!4v1778052615007!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/jis/"
   },
     {
     "id": "benteng-martello",
     "title": "Benteng Martello",
     "description": "Benteng Martello is a historical fort in Jakarta, known for its strategic location and architectural significance.",
-    "area": "area",
+    "area": "8.000 m²",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "menara pertahanan melingkar peninggalan kolonial Belanda yang dibangun di Kepulauan Seribu sekitar tahun 1850-an"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.7779855407675!2d106.7425263745545!3d-6.0251836939602645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1b22c5b45df3%3A0x583653cc221dd19d!2sBenteng%20VOC%20Martello!5e0!3m2!1sen!2sid!4v1778052666194!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/benteng-martello/"
   },
     {
     "id": "pelabuhan-sunda-kelapa",
     "title": "Pelabuhan Sunda Kelapa",
     "description": "Pelabuhan Sunda Kelapa is a historic port in Jakarta, known for its cultural significance and maritime heritage.",
-    "area": "area",
+    "area": "76 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Dermaga kapal pinisi", 
+      "jasa bongkar muat tradisional", 
+      "gudang tua", 
+      "dan mercusuar"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7934.128339980141!2d106.80361973952638!3d-6.122065875458355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1de1357c38ab%3A0x1f3e51326d2b80cd!2sPelabuhan%20Sunda%20Kelapa%20Jakarta!5e0!3m2!1sen!2sid!4v1778052730458!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/sunda-kelapa/"
   },
     {
     "id": "scbd",
     "title": "SCBD",
     "description": "SCBD is a major business district in Jakarta, known for its modern skyscrapers and financial institutions.",
-    "area": "area",
+    "area": "45 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Gedung perkantoran (Treasury Tower)", 
+      "Apartemen mewah", 
+      "Pusat perbelanjaan (Pacific Place)", 
+      "Hotel bintang lima", 
+      "Terowongan pejalan kaki bawah tanah"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.104349974523!2d106.79891484071126!3d-6.227284050172078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f150626e889f%3A0xdca88e054002e663!2sSudirman%20Central%20Business%20District%2C%20RT.5%2FRW.3%2C%20Senayan%2C%20Kebayoran%20Baru%2C%20South%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1778054428694!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/scbd/"
   },
     {
     "id": "ancol",
     "title": "Ancol Beach",
     "description": "Ancol is a popular recreational area in Jakarta, known for its beachfront location and various attractions.",
-    "area": "area",
+    "area": "550 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Dunia Fantasi (Dufan)", 
+      "Sea World", 
+      "Atlantis Water Adventure", 
+      "Pantai Ancol", 
+      "Ocean Dream Samudra", 
+      "Pasar Seni", 
+      "Dermaga"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31736.460026542838!2d106.81979037779988!3d-6.122963507268726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1e17cf58f74f%3A0x504262ac57884abe!2sAncol%2C%20Pademangan%2C%20North%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1778054465878!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/ancol/"
   },
     {
     "id": "dermaga-phinisi",
     "title": "Dermaga Phinisi",
     "description": "Dermaga Phinisi is a scenic harbor in Jakarta, known for its traditional wooden boats and vibrant atmosphere.",
-    "area": "area",
+    "area": "",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Kapal wisata pinisi (seperti De Sartika atau Augustine), area tunggu",
+       "paket makan malam di atas kapal"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.403108641705!2d106.74186567431641!3d-6.1070715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d55854d637f%3A0xe22d952b046711e2!2sJakarta%20Phinisi%20Cruise%20by%20Trizara!5e0!3m2!1sen!2sid!4v1778054573727!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/dermaga-phinisi/"
   },
     {
     "id": "lapangan-banteng",
     "title": "Lapangan Banteng",
     "description": "Lapangan Banteng is a popular public square in Jakarta, known for its cultural events and recreational activities.",
-    "area": "area",
+    "area": "5,2 hektar.",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Monumen Pembebasan Irian Barat", 
+      "amfiteater", 
+      "air mancur menari", 
+      "taman bermain anak", 
+      "lapangan bola", 
+      "dan jalur atletik"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7026492538353!2d106.83016687600498!3d-6.170554977873713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5cbff32cf03%3A0xc0f7ede65818fc6d!2sLapangan%20Banteng%20Park!5e0!3m2!1sen!2sid!4v1778054619858!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/lapangan-banteng/"
   },
     {
     "id": "buy-local-jxb",
     "title": "Buy Local JXB",
     "description": "Buy Local JXB is a local market in Jakarta, known for its variety of products and cultural atmosphere.",
-    "area": "area",
+    "area": "150 m²",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Pusat informasi pariwisata", 
+      "gerai souvenir khas Jakarta", 
+      "vending machine UMKM", 
+      "dan area duduk publik"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.45250683636!2d106.82028232455606!3d-6.203884443783879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f59ac48fc14d%3A0x1d4aeb6c96279e20!2sJakarta%20Creative%20Zone%3A%20Buy%20Local*21%20By%20JXB!5e0!3m2!1sen!2sid!4v1778054677686!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/buy-local-jxb/"
   },
     {
     "id": "jpo-karet",
     "title": "JPO Karet",
     "description": "JPO Karet is a commercial area in Jakarta, known for its shopping centers and business establishments.",
-    "area": "area",
+    "area": "panjang ±200–300 meter",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Jalur khusus sepeda", 
+      "lift kapasitas 3.000 kg",
+      "sensor penghitung orang",
+      "galeri apresiasi Nakes."
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.383635753597!2d106.81700227455613!3d-6.213029693774864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14bb81785d3%3A0xd7d3a7d9ac49c1aa!2sJPO%20Karet!5e0!3m2!1sen!2sid!4v1778054732526!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/jpo-karet/"
   },
     {
     "id": "sport-center-jxb",
     "title": "Sport Center JXB",
     "description": "Sport Center JXB is a recreational facility in Jakarta, known for its sports amenities and activities.",
-    "area": "area",
+    "area": "3,57 hektare",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Gym",
+       "lapangan olahraga",
+        "loker", 
+        "dan area pemanasan dan kolam renang"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.689269251021!2d106.86083127455588!3d-6.172342293815045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5000814ad05%3A0x1c14a740118a3194!2sRoyal%20Sport%20Center!5e0!3m2!1sen!2sid!4v1778054784728!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/d_arcici-sport-center/"
   },
     {
     "id": "setu-babakan",
@@ -251,42 +252,47 @@
     "id": "ragunan",
     "title": "Ragunan",
     "description": "Ragunan is a neighborhood in Jakarta, known for its park and recreational facilities.",
-    "area": "area",
+    "area": "147 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Pusat Primata Schmutzer", 
+      "taman refleksi", 
+      "area gajah", 
+      "jalur sepeda", 
+      "kereta keliling", 
+      "dan kebun binatang anak (children zoo)", 
+      "dll."
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31725.982891908654!2d106.80068592790195!3d-6.296828096294555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edfdb17f7b7d%3A0xf9dd2a3f5ab5069a!2sRagunan%20Zoo!5e0!3m2!1sen!2sid!4v1778054874909!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/ragunan/"
   },   
   {
-    "id": "jkt-velodrome",
+    "id": "jiv",
     "title": "Jakarta International Velodrome",
     "description": "Jakarta International Velodrome is a sports facility in Jakarta, known for its cycling track and athletic events.",
-    "area": "area",
+    "area": "9,5 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Lintasan balap sepeda kayu standar UCI (250 meter)", 
+      "Tribun kapasitas 3.500-8.500 orang", 
+      "Lapangan futsal/tenis di tengah lintasan", 
+      "Area kuliner"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.544738662452!2d106.88748787455597!3d-6.1916160937960125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4c1b0e3900d%3A0x5002b28cbefbb32e!2sJakarta%20International%20Velodrome!5e0!3m2!1sen!2sid!4v1778054920509!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
-  },              
+    "gallery": "gallery/jiv/"
+  },      
   {
-    "id": "psr-seni",
-    "title": "Pasar Seni",
-    "description": "Pasar Seni Ancol adalah tempat seni...",
-    "area": "3 Ha",
+    "id": "pl-bidadari",
+    "title": "Pulau Bidadari",
+    "description": "Pulau Bidadari is a scenic island in Jakarta, known for its natural beauty and recreational facilities.",
+    "area": "6,98 hektar",
     "facilities": [
-      "Art shops",
-      "Open space",
-      "Parking"
+      "Resort/cottage terapung", 
+      "restoran", 
+      "bar", 
+      "jalur sepeda", 
+      "area konservasi rusa"
     ],
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31736.25027958002!2d106.80084287431636!3d-6.1264923999999885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1e184ec2b8f3%3A0x8fd2a44632896350!2sPasar%20Seni%20Ancol!5e0!3m2!1sen!2sid!4v1778054964317!5m2!1sen!2sid",
-    "gallery": "gallery/pasar-seni/"
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.800316731567!2d106.73664424068365!3d-6.035832803194894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1b3ffe6c380d%3A0xc01d32db3294d65e!2sPulau%20Bidadari!5e0!3m2!1sen!2sid!4v1778164316746!5m2!1sen!2sid",
+    "gallery": "gallery/pl-bidadari/"
   }
   
 ]

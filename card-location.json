@@ -9,29 +9,29 @@
   {
     "title": "Bundaran HI",
     "location": "Jakarta Pusat",
-    "category": "business",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "landmark",
+    "image": "gallery/bundaran-hi/pexels-iman-boer-6927124-6268951.webp",
     "link": "location-detail.html?id=bhi"
   },
   {
-    "title": "MRT Blok M",
+    "title": "MRT Blok M atau Blok M",
     "location": "Jakarta Selatan",
     "category": "transport",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/blok-m/CopyofLUT07430.webp",
     "link": "location-detail.html?id=mrt-blok-m"
   },
   {
     "title": "Pasar Glodok",
     "location": "Jakarta Barat",
-    "category": "business",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "residential",
+    "image": "gallery/psr-glodok/pexels-davidtumpal-36985954.webp",
     "link": "location-detail.html?id=psr-glodok"
   },
   {
     "title": "Kota Tua",
     "location": "Jakarta Barat",
     "category": "landmark",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/kota-tua/15.webp",
     "link": "location-detail.html?id=kota-tua"
   },
     {
@@ -45,70 +45,70 @@
     "title": "Jakarta International Stadium",
     "location": "Jakarta Utara",
     "category": "sport",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/jis/gZU9g0NS6eaC0xOFw60q7yQ8SOO1pOkmLtcw5iS6.webp",
     "link": "location-detail.html?id=jis"
   },
   {
     "title": "Benteng Martello",
     "location": "Kepulauan Seribu",
-    "category": "landmark",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "coastal",
+    "image": "gallery/benteng-martello/NCgmd7515F4xiAfiPD83oxAicKk0YlSc4FMsLnKZ.webp",
     "link": "location-detail.html?id=benteng-martello"
   },
   {
     "title": "Pelabuhan Sunda Kelapa",
     "location": "Jakarta Utara",
-    "category": "port",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "transport",
+    "image": "gallery/sunda-kelapa/pexels-tomfisk-3376481.webp",
     "link": "location-detail.html?id=pelabuhan-sunda-kelapa"
   },
   {
     "title": "SCBD",
     "location": "Jakarta Selatan",
     "category": "business",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/scbd/pexels-tomfisk-7405512.webp",
     "link": "location-detail.html?id=scbd"
   },
   {
     "title": "Ancol Beach",
     "location": "Jakarta Utara",
     "category": "coastal",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/ancol/20230201202928_32793398012658784672950883585517703844831879n.webp",
     "link": "location-detail.html?id=ancol"
   },
   {
     "title": "Dermaga Phinisi",
     "location": "Jakarta Utara",
     "category": "port",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/dermaga-phinisi/pexels-jamin-djuang-116234-30732478.webp",
     "link": "location-detail.html?id=dermaga-phinisi"
   },
   {
     "title": "Lapangan Banteng",
     "location": "Jakarta Pusat",
     "category": "park",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/lapangan-banteng/pexels-capturavisualmoment-32329295.webp",
     "link": "location-detail.html?id=lapangan-banteng"
   },
   {
     "title": "Buy Local JXB",
     "location": "Jakarta Pusat",
-    "category": "business",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "park",
+    "image": "gallery/buy-local-jxb/1.webp",
     "link": "location-detail.html?id=buy-local-jxb"
   },
   {
     "title": "JPO Karet",
     "location": "Jakarta Pusat",
-    "category": "business",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "transport",
+    "image": "gallery/jpo-karet/pexels-mat-umar-325141395-13919857.webp",
     "link": "location-detail.html?id=jpo-karet"
   },
   {
     "title": "Sport Center JXB",
     "location": "Jakarta Barat",
     "category": "sport",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/d_arcici-sport-center/JXB06621.webp",
     "link": "location-detail.html?id=sport-center-jxb"
   },
   {
@@ -119,24 +119,24 @@
     "link": "location-detail.html?id=setu-babakan"
   },
   {
-    "title": "Pasar Seni",
-    "location": "Jakarta Utara",
-    "category": "art",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
-    "link": "location-detail.html?id=psr-seni"
-  },
-  {
     "title": "Jakarta Velodrome",
     "location": "Jakarta Utara",
     "category": "sport",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
-    "link": "location-detail.html?id=jkt-velodrome"
+    "image": "gallery/jiv/zGf2BA1ZacHv0oL1AlG5WCm4biPKc0ZqqlNJhUI4.webp",
+    "link": "location-detail.html?id=jiv"
+  },
+  {
+    "title": "Pulau Bidadari",
+    "location": "Kepulauan Seribu",
+    "category": "coastal",
+    "image": "gallery/pl-bidadari/pulau-bidadari-kepulauan-seribu-jakarta.webp",
+    "link": "location-detail.html?id=pl-bidadari"
   },
   {
     "title": "Ragunan Zoo",
     "location": "Jakarta Selatan",
     "category": "park",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "image": "gallery/ragunan/download1.webp",
     "link": "location-detail.html?id=ragunan"
   }
 ]
