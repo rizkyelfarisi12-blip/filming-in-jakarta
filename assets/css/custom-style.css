@@ -9,19 +9,9 @@
             background-position: center;
             color: #fff;
             text-decoration: none;
-
-            /* MONOCHROME DEFAULT */
-            filter: grayscale(100%) brightness(0.85) contrast(1.05);
-            transition: all 0.4s ease;
         }
 
-        /* Hover → kembali ke warna asli */
-        .category-card:hover {
-            filter: grayscale(0%) brightness(1) contrast(1);
-            transform: scale(1.03);
-        }
-
-        /* Overlay */
+        /* overlay default */
         .category-card .overlay {
             position: absolute;
             inset: 0;
@@ -29,7 +19,19 @@
                 to top,
                 rgba(0,0,0,0.65),
                 rgba(0,0,0,0.1)
-        );
+            );
+            transition: all 0.4s ease;
+        }
+
+        /* hover: ubah jadi gradient warna */
+        .category-card:hover .overlay {
+            background: linear-gradient(
+                to top,
+                rgba(255, 103, 1, 1),
+                /* rgba(233, 55, 2, 0,5), */
+                rgba(203, 22, 6, 0.098)
+
+            );
         }
 
         /* Text */
@@ -48,10 +50,14 @@
             transition: all 0.3s ease;
         }
 
-        .category-card:hover h3 {
-            opacity: 0;
-            transform: translateY(10px); /* optional biar smooth turun */
+        .category-card:hover {
+            transform: scale(1.03);
         }
+
+        /* .category-card:hover h3 {
+            opacity: 0;
+            transform: translateY(10px);
+        } */
 
         .category-filter {
             text-align: center;
@@ -71,12 +77,24 @@
         /* WRAPPER */
         .category-item {
             position: relative;
-            width: 120px;
-            height: 70px;
+            flex: 0 0 auto;
+            width: 180px;   /* dari 120 → 180 */
+            height: 110px;  /* dari 80 → 110 */
             cursor: pointer;
             overflow: hidden;
-            border-radius: 6px;
+            border-radius: 10px;
         }
+        .category-filter .row,
+        .category-scroll {
+            display: flex;
+            flex-wrap: nowrap;      /* jangan turun ke bawah */
+            overflow-x: auto;       /* bisa scroll horizontal */
+            gap: 12px;
+            padding: 10px 5px 15px;
+            scroll-behavior: smooth;
+            justify-content: flex-start !important;
+        }
+
 
         /* IMAGE */
         .category-item img {
@@ -86,13 +104,6 @@
             transition: 0.4s;
         }
 
-        /* OVERLAY GELAP */
-        .category-item::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            /* background: rgba(0,0,0,0.35); */
-        }
 
         /* TEXT DI ATAS GAMBAR */
         .category-text {
@@ -105,6 +116,8 @@
             font-weight: 600;
             z-index: 2;
             text-align: center;
+            width: 90%;
+            line-height: 1.3;
         }
 
         /* HOVER EFFECT */
@@ -114,7 +127,26 @@
 
         /* ACTIVE STATE */
         .category-item.active::after {
-            background: rgba(241,93,48,0.6);
+            background: rgba(241, 93, 48, 0.6);
+             background: transparent;
+        }
+
+        .category-item.active {
+            outline: 3px solid #ff5a1f;
+        }
+
+        .category-item.active img {
+            transform: scale(1.1);
+            filter: none;
+        }
+        
+        .category-item::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            transition: 0.3s;
+            z-index: 1;
+            
         }
 
         .category-filter img:hover {
@@ -213,61 +245,7 @@
             cursor: pointer;
         }
 
-         .category-card {
-  position: relative;
-  display: block;
-  height: 280px;
-  border-radius: 16px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  text-decoration: none;
-
-  /* MONOCHROME DEFAULT */
-  filter: grayscale(100%) brightness(0.85) contrast(1.05);
-  transition: all 0.4s ease;
-}
-
-/* Hover → kembali ke warna asli */
-.category-card:hover {
-  filter: grayscale(0%) brightness(1) contrast(1);
-  transform: scale(1.03);
-}
-
-/* Overlay */
-.category-card .overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,0.65),
-    rgba(0,0,0,0.1)
-  );
-}
-
-/* Text */
-.category-card h3 {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 1px;
-
-  color: #fff; /* pastikan putih */
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-
-.category-card:hover h3 {
-  opacity: 0;
-  transform: translateY(10px); /* optional biar smooth turun */
-}
-
-
+         
     /* SECTION SPACING */
 .section-custom {
     padding: 60px 0;
