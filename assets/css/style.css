@@ -12466,12 +12466,16 @@ h5,
 }
 
 .hero-background {
-  background: url("../cover/banner_page.webp") 0 0 / cover;
-  /* background-repeat: no-repeat;
-  background-attachment: fixed;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover; */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("../cover/banner.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-wrap {
