@@ -94,7 +94,7 @@
     {
     "id": "jis",
     "title": "Jakarta International Stadium",
-    "description": "Jakarta International Velodrome is a world-class indoor cycling arena built for the 2018 Asian Games in East Jakarta. The venue features geometric contemporary architecture, dramatic timber interiors, spectator seating, and integrated public transit access via the Jakarta LRT network. Surrounding open plazas and sports facilities reinforce its modern athletic identity. For film production, the Velodrome offers visually dynamic lines, large-scale interior perspectives, and futuristic sports aesthetics suitable for action sequences, sports campaigns, youth-oriented commercials, fitness branding, and productions highlighting Jakarta’s evolving infrastructure landscape.",
+    "description": "Jakarta International Stadium is a world-class retractable-roof football venue located in North Jakarta with a capacity exceeding 80,000 spectators. Opened in 2022, the stadium features futuristic architecture, expansive plazas, advanced event facilities, and integrated transportation access. Its dramatic steel structures and large-scale interiors position it among Southeast Asia’s most visually striking sports venues. For film production, JIS offers cinematic scale suitable for sports films, concerts, action sequences, international event coverage, futuristic storytelling, and large-format commercial productions requiring monumental contemporary architecture.",
     "area": "22 hektar",
     "facilities": [
       "Kapasitas 82.000 kursi", 
@@ -149,8 +149,8 @@
   },
     {
     "id": "ancol",
-    "title": "Ancol Beach",
-    "description": "Ancol Dreamland is Southeast Asia’s largest integrated waterfront recreation complex, spanning Jakarta’s northern coastline. The area includes beaches, amusement parks, marinas, ecoparks, hotels, art spaces, waterfront promenades, and entertainment facilities overlooking Jakarta Bay. Developed since the 1960s, Ancol has become one of Indonesia’s most iconic leisure destinations. For film production, the site offers exceptional location diversity within a single area, including coastal scenery, amusement rides, urban beaches, and entertainment zones suitable for tourism campaigns, family-oriented productions, music videos, commercial shoots, and large-scale cinematic productions requiring waterfront access.",
+    "title": "Ancol",
+    "description": "Ancol is Southeast Asia’s largest integrated waterfront recreation complex, spanning Jakarta’s northern coastline. The area includes beaches, amusement parks, marinas, ecoparks, hotels, art spaces, waterfront promenades, and entertainment facilities overlooking Jakarta Bay. Developed since the 1960s, Ancol has become one of Indonesia’s most iconic leisure destinations. For film production, the site offers exceptional location diversity within a single area, including coastal scenery, amusement rides, urban beaches, and entertainment zones suitable for tourism campaigns, family-oriented productions, music videos, commercial shoots, and large-scale cinematic productions requiring waterfront access.",
     "area": "550 hektar",
     "facilities": [
       "Dunia Fantasi (Dufan)", 
@@ -269,7 +269,7 @@
   {
     "id": "jiv",
     "title": "Jakarta International Velodrome",
-    "description": "Jakarta International Velodrome is a sports facility in Jakarta, known for its cycling track and athletic events.",
+    "description": "Jakarta International Velodrome is a world-class indoor cycling arena built for the 2018 Asian Games in East Jakarta. The venue features geometric contemporary architecture, dramatic timber interiors, spectator seating, and integrated public transit access via the Jakarta LRT network. Surrounding open plazas and sports facilities reinforce its modern athletic identity. For film production, the Velodrome offers visually dynamic lines, large-scale interior perspectives, and futuristic sports aesthetics suitable for action sequences, sports campaigns, youth-oriented commercials, fitness branding, and productions highlighting Jakarta’s evolving infrastructure landscape.",
     "area": "9,5 hektar",
     "facilities": [
       "Lintasan balap sepeda kayu standar UCI (250 meter)", 
