@@ -2,7 +2,7 @@
   {
     "id": "tim",
     "title": "Taman Ismail Marzuki",
-    "description": "Taman Ismail Marzuki (TIM), founded in 1968 by Governor Ali Sadikin in Cikini, Central Jakarta, is the city’s leading arts and cultural hub. Named after composer Ismail Marzuki, it includes Institut Kesenian Jakarta and venues like Graha Bhakti Budaya, theaters, galleries, Planetarium, and Jakarta City Library. Revitalized in 2022 with a design inspired by “Rayuan Pulau Kelapa,” TIM offers versatile indoor-outdoor spaces and central accessibility, making it ideal for diverse film and creative productions.",
+    "description": "Taman Ismail Marzuki (TIM) is Jakarta’s premier arts and cultural complex located in Central Jakarta. Established in 1968 and revitalized in 2022 with contemporary architecture inspired by Indonesian cultural motifs, the complex includes theaters, galleries, a planetarium, creative public spaces, and Institut Kesenian Jakarta. TIM blends artistic heritage with modern urban design, making it one of Indonesia’s leading creative hubs. For film production, the complex offers highly versatile environments ranging from intimate gallery spaces to dramatic performance halls and architecturally striking exteriors, suitable for arthouse cinema, cultural documentaries, contemporary dramas, and creative industry campaigns.",
     "area": "5.2 Ha",
     "facilities": [
       "Food stalls",
@@ -16,7 +16,7 @@
   {
     "id": "bhi",
     "title": "Bundaran HI",
-    "description": "Bundaran HI is a prominent landmark in Jakarta, known for its modern architecture and strategic location.",
+    "description": "Bundaran HI (Hotel Indonesia Roundabout) is Jakarta’s most iconic urban landmark and the symbolic center of the city’s modern skyline. Built for the 1962 Asian Games, the district features the Selamat Datang Monument, luxury hotels, shopping malls, office towers, and direct MRT connectivity beneath Jalan M.H. Thamrin. The area represents the contemporary face of Jakarta, combining monumental public space with dense metropolitan activity. For film production, Bundaran HI delivers polished cinematic visuals including wide boulevards, high-rise architecture, dramatic night lighting, and dynamic traffic movement—ideal for action films, luxury commercials, urban dramas, and productions portraying modern Southeast Asian city life.",
     "area": "4.000 (area monumen dan kolam).",
     "facilities": [
       "Air mancur ikonik", 
@@ -29,9 +29,9 @@
     "gallery": "gallery/bundaran-hi/"
   },
   {
-    "id": "mrt-blok-m",
-    "title": "MRT Blok M",
-    "description": "MRT Blok M is a major transit hub in Jakarta, connecting various parts of the city.",
+    "id": "blok-m",
+    "title": "Kawasan Blok M",
+    "description": "Blok M is one of South Jakarta’s most vibrant commercial and cultural districts, known for its layered mix of nightlife, shopping centers, transit infrastructure, street food corridors, and youth-oriented urban culture. The area combines elevated MRT structures, retro alleys, rooftop views, cafés, bars, and dense commercial activity within a walkable neighborhood atmosphere. Historically associated with Jakarta’s youth subculture, Blok M remains a major creative and social hub. For film production, the district offers authentic metropolitan visuals ideal for contemporary dramas, music videos, lifestyle campaigns, coming-of-age stories, and productions seeking energetic urban realism within Southeast Asia’s largest city.",
     "area": "4.550 meter persegi",
     "facilities": [
       "Akses langsung (bridge) ke Mal Blok M Plaza", 
@@ -48,7 +48,7 @@
   {
     "id": "psr-glodok",
     "title": "Pasar Glodok",
-    "description": "Pasar Glodok is a traditional market in Jakarta, known for its variety of goods and cultural significance.",
+    "description": "Glodok is Jakarta’s historic Chinatown district and one of the city’s most visually distinctive urban environments. Developed from the colonial-era Chinese settlement zone after the 1740 Batavia Massacre, the area blends Chinese-Indonesian heritage with dense commercial activity. Streets are lined with temples, electronics shops, herbal medicine stores, noodle stalls, and old shophouses layered with colorful signage. The district’s narrow corridors, multicultural textures, and vibrant street life create exceptional visual depth. For film production, Glodok offers an authentic Chinatown setting ideal for period films, urban thrillers, historical narratives, social realism, and productions exploring multicultural Southeast Asian city life.",
     "area": "1,7 hektare (17.086 m²).",
     "facilities": [
       "Pusat elektronik & perdagangan", 
@@ -62,7 +62,7 @@
     {
     "id": "kota-tua",
     "title": "Kota Tua",
-    "description": "Kota Tua is a historic district in Jakarta, known for its colonial architecture and cultural heritage.",
+    "description": "Jakarta Old Town (Kota Tua Jakarta) is the historic colonial center of former Batavia, featuring preserved Dutch-era architecture dating back to the 17th century. Centered around Fatahillah Square, the district includes museums, old trading warehouses, cobblestone streets, cafés, and heritage buildings reflecting Jakarta’s maritime trading history. The area offers one of the richest historical urban environments in Indonesia. For film production, Jakarta Old Town provides cinematic European colonial aesthetics within Southeast Asia, making it highly suitable for historical dramas, period productions, fashion editorials, tourism campaigns, and large-scale scenes requiring preserved heritage architecture and atmospheric public spaces.",
     "area": "±130 hektar",
     "facilities": [
       "Museum (Fatahillah, Wayang, Seni Rupa)", 
@@ -78,7 +78,7 @@
     {
     "id": "tmn-bendera-pusaka",
     "title": "Taman Bendera Pusaka",
-    "description": "Taman Bendera Pusaka is a cultural park in Jakarta, known for its beautiful landscapes and recreational facilities.",
+    "description": "Taman Bendera Pusaka is a ceremonial public park in Central Jakarta associated with Indonesia’s national identity and civic symbolism. The site combines formal landscaping, monumental design elements, and open plazas connected to Jakarta’s governmental and historical corridors. Its structured visual composition creates a dignified urban environment suitable for institutional and state-related narratives. For film production, the location offers clean monumental visuals, symmetrical public spaces, and strong national atmosphere ideal for patriotic campaigns, historical documentaries, diplomatic scenes, and productions requiring formal civic settings within Indonesia’s capital city.",
     "area": "3,6 hektar",
     "facilities": [
       "Jogging Track", 
@@ -94,7 +94,7 @@
     {
     "id": "jis",
     "title": "Jakarta International Stadium",
-    "description": "Jakarta International Stadium is a major sports venue in Jakarta, hosting various events and competitions.",
+    "description": "Jakarta International Velodrome is a world-class indoor cycling arena built for the 2018 Asian Games in East Jakarta. The venue features geometric contemporary architecture, dramatic timber interiors, spectator seating, and integrated public transit access via the Jakarta LRT network. Surrounding open plazas and sports facilities reinforce its modern athletic identity. For film production, the Velodrome offers visually dynamic lines, large-scale interior perspectives, and futuristic sports aesthetics suitable for action sequences, sports campaigns, youth-oriented commercials, fitness branding, and productions highlighting Jakarta’s evolving infrastructure landscape.",
     "area": "22 hektar",
     "facilities": [
       "Kapasitas 82.000 kursi", 
@@ -110,7 +110,7 @@
     {
     "id": "benteng-martello",
     "title": "Benteng Martello",
-    "description": "Benteng Martello is a historical fort in Jakarta, known for its strategic location and architectural significance.",
+    "description": "The Martello Forts of Jakarta’s Thousand Islands are historic Dutch colonial coastal defense structures surrounded by tropical maritime landscapes. Built during the 19th century to protect Batavia, the circular brick forts now stand partially in ruins, creating visually dramatic textures against beaches, mangroves, and open sea horizons. Their isolated setting offers rare historical architecture within an island environment near Jakarta. For film production, the forts are highly suitable for historical dramas, war films, adventure narratives, fantasy storytelling, survival scenes, and productions seeking atmospheric ruins with authentic Southeast Asian colonial history.",
     "area": "8.000 m²",
     "facilities": [
       "menara pertahanan melingkar peninggalan kolonial Belanda yang dibangun di Kepulauan Seribu sekitar tahun 1850-an"
@@ -121,7 +121,7 @@
     {
     "id": "pelabuhan-sunda-kelapa",
     "title": "Pelabuhan Sunda Kelapa",
-    "description": "Pelabuhan Sunda Kelapa is a historic port in Jakarta, known for its cultural significance and maritime heritage.",
+    "description": "Sunda Kelapa Port is Jakarta’s historic harbor and one of Indonesia’s oldest active maritime trading ports. Located in North Jakarta, the harbor is internationally recognized for its traditional wooden Phinisi schooners that continue transporting goods across the Indonesian archipelago. The area combines maritime heritage, dockside labor activity, weathered warehouses, and layered industrial textures. For film production, Sunda Kelapa offers authentic nautical visuals rarely found in modern Asian capitals, ideal for documentaries, historical narratives, travel campaigns, maritime dramas, and productions exploring Indonesia’s centuries-old seafaring culture.",
     "area": "76 hektar",
     "facilities": [
       "Dermaga kapal pinisi", 
@@ -135,7 +135,7 @@
     {
     "id": "scbd",
     "title": "SCBD",
-    "description": "SCBD is a major business district in Jakarta, known for its modern skyscrapers and financial institutions.",
+    "description": "Sudirman Central Business District (SCBD) is Jakarta’s premier financial and lifestyle district, defined by luxury skyscrapers, upscale dining, nightlife venues, and high-end commercial developments. Integrated with MRT and pedestrian infrastructure, the district represents the most contemporary face of Indonesia’s economic capital. Glass towers, rooftop venues, urban plazas, and illuminated streets create a distinctly international metropolitan atmosphere. For film production, SCBD offers sleek cinematic visuals ideal for luxury branding, corporate storytelling, fashion campaigns, contemporary thrillers, and productions requiring a polished modern Asian cityscape comparable to other global financial centers.",
     "area": "45 hektar",
     "facilities": [
       "Gedung perkantoran (Treasury Tower)", 
@@ -150,7 +150,7 @@
     {
     "id": "ancol",
     "title": "Ancol Beach",
-    "description": "Ancol is a popular recreational area in Jakarta, known for its beachfront location and various attractions.",
+    "description": "Ancol Dreamland is Southeast Asia’s largest integrated waterfront recreation complex, spanning Jakarta’s northern coastline. The area includes beaches, amusement parks, marinas, ecoparks, hotels, art spaces, waterfront promenades, and entertainment facilities overlooking Jakarta Bay. Developed since the 1960s, Ancol has become one of Indonesia’s most iconic leisure destinations. For film production, the site offers exceptional location diversity within a single area, including coastal scenery, amusement rides, urban beaches, and entertainment zones suitable for tourism campaigns, family-oriented productions, music videos, commercial shoots, and large-scale cinematic productions requiring waterfront access.",
     "area": "550 hektar",
     "facilities": [
       "Dunia Fantasi (Dufan)", 
@@ -167,7 +167,7 @@
     {
     "id": "dermaga-phinisi",
     "title": "Dermaga Phinisi",
-    "description": "Dermaga Phinisi is a scenic harbor in Jakarta, known for its traditional wooden boats and vibrant atmosphere.",
+    "description": "Phinisi Pier is a contemporary waterfront landmark in North Jakarta inspired by Indonesia’s traditional Phinisi sailing ships. Featuring modern wooden architectural elements, open-air decks, and panoramic sea views, the pier combines maritime symbolism with contemporary public-space design. Popular during sunset hours, the location provides strong visual compositions against Jakarta Bay’s skyline and coastline. For film production, Phinisi Pier offers cinematic tropical waterfront aesthetics suitable for romance films, travel campaigns, music videos, lifestyle branding, and productions requiring a modern coastal setting within an urban environment.",
     "area": "",
     "facilities": [
       "Kapal wisata pinisi (seperti De Sartika atau Augustine), area tunggu",
@@ -179,7 +179,7 @@
     {
     "id": "lapangan-banteng",
     "title": "Lapangan Banteng",
-    "description": "Lapangan Banteng is a popular public square in Jakarta, known for its cultural events and recreational activities.",
+    "description": "Lapangan Banteng is a historic civic square and revitalized urban park in Central Jakarta centered around the West Irian Liberation Monument. The site combines monumental architecture, landscaped gardens, illuminated fountains, and open public plazas surrounded by colonial-era and governmental buildings. The area balances historical symbolism with contemporary urban recreation. For film production, Lapangan Banteng offers strong visual contrast between monuments, greenery, water features, and urban architecture, making it suitable for patriotic narratives, public-event scenes, historical storytelling, fashion shoots, and contemporary metropolitan productions.",
     "area": "5,2 hektar.",
     "facilities": [
       "Monumen Pembebasan Irian Barat", 
@@ -195,7 +195,7 @@
     {
     "id": "buy-local-jxb",
     "title": "Buy Local JXB",
-    "description": "Buy Local JXB is a local market in Jakarta, known for its variety of products and cultural atmosphere.",
+    "description": "Buy Local by JXB is a curated creative marketplace initiative promoting Indonesian local brands, artisans, fashion labels, and cultural products within Jakarta’s tourism ecosystem. Designed with contemporary retail aesthetics and lifestyle-focused presentation, the space showcases the city’s growing creative economy through visually polished merchandising and curated tenant experiences. For film production, Buy Local by JXB offers modern creative retail environments suitable for fashion editorials, lifestyle commercials, social-media campaigns, youth-oriented productions, and stories centered on Indonesia’s emerging creative and artisan industries.",
     "area": "150 m²",
     "facilities": [
       "Pusat informasi pariwisata", 
@@ -209,7 +209,7 @@
     {
     "id": "jpo-karet",
     "title": "JPO Karet",
-    "description": "JPO Karet is a commercial area in Jakarta, known for its shopping centers and business establishments.",
+    "description": "Karet Pedestrian Bridge (JPO Karet Sudirman) is one of Jakarta’s most recognizable modern pedestrian overpasses, located along the Sudirman business corridor. Redesigned with contemporary architecture and illuminated night lighting, the bridge offers panoramic views of Jakarta’s skyline, elevated traffic flows, and surrounding skyscrapers. The location has become a popular urban photography landmark due to its symmetrical geometry and metropolitan atmosphere. For film production, JPO Karet delivers cinematic city perspectives ideal for music videos, fashion campaigns, urban thrillers, commercials, and contemporary narratives set within a high-density Asian metropolis.",
     "area": "panjang ±200–300 meter",
     "facilities": [
       "Jalur khusus sepeda", 
@@ -222,8 +222,8 @@
   },
     {
     "id": "sport-center-jxb",
-    "title": "Sport Center JXB",
-    "description": "Sport Center JXB is a recreational facility in Jakarta, known for its sports amenities and activities.",
+    "title": "Sports Center JXB",
+    "description": "Sport Center JXB is a multifunctional sports and recreation facility integrated into Jakarta’s tourism and event ecosystem. Designed to support both organized sporting activities and public recreation, the venue combines contemporary sports infrastructure with flexible indoor and outdoor event spaces. Its accessible urban location and modern facilities make it suitable for community engagement, competitions, and branded experiences. For film production, the venue provides adaptable athletic environments ideal for sports campaigns, fitness branding, youth-focused commercials, esports-related productions, and cinematic scenes emphasizing active urban lifestyles.",
     "area": "3,57 hektare",
     "facilities": [
       "Gym",
@@ -237,7 +237,7 @@
     {
     "id": "setu-babakan",
     "title": "Setu Babakan",
-    "description": "Setu Babakan is a neighborhood in Jakarta, known for its residential areas and local amenities.",
+    "description": "Setu Babakan is Jakarta’s official Betawi cultural preservation village located around a lakeside environment in South Jakarta. The site preserves the traditions of Jakarta’s indigenous Betawi community through traditional houses, culinary heritage, performing arts, handicrafts, and cultural festivals. Surrounded by greenery and waterfront scenery, the village offers one of the few authentic cultural landscapes remaining within the capital. For film production, Setu Babakan provides highly distinctive local identity, ideal for cultural documentaries, historical narratives, tourism campaigns, traditional celebrations, and productions exploring Jakarta’s indigenous heritage and community life.",
     "area": "289 hektar",
     "facilities": [
       "Danau (Setu)",
@@ -252,7 +252,7 @@
     {
     "id": "ragunan",
     "title": "Ragunan",
-    "description": "Ragunan is a neighborhood in Jakarta, known for its park and recreational facilities.",
+    "description": "Ragunan Zoo is Indonesia’s oldest and largest zoological park, spanning more than 140 hectares of tropical greenery in South Jakarta. Established in the 19th century, the zoo contains extensive tree canopies, lakes, cycling paths, wildlife habitats, and conservation facilities housing thousands of animals including orangutans and endemic Indonesian species. The site combines ecological atmosphere with accessible urban infrastructure. For film production, Ragunan offers expansive tropical environments suitable for wildlife documentaries, family entertainment, educational content, adventure narratives, and productions requiring lush green landscapes within Jakarta’s metropolitan area.",
     "area": "147 hektar",
     "facilities": [
       "Pusat Primata Schmutzer", 
@@ -283,7 +283,7 @@
   {
     "id": "pl-bidadari",
     "title": "Pulau Bidadari",
-    "description": "Pulau Bidadari is a scenic island in Jakarta, known for its natural beauty and recreational facilities.",
+    "description": "Bidadari Island is one of the closest islands to mainland Jakarta within the Thousand Islands archipelago, offering a rare combination of tropical coastline and colonial-era ruins. The island features white-sand beaches, wooden piers, mangrove edges, and the remains of a historic Dutch Martello fort overlooking Jakarta Bay. Accessible by boat from Marina Ancol, the island provides an isolated yet logistically accessible setting for productions requiring maritime atmosphere close to the capital. For film production, Bidadari offers versatile visuals for historical dramas, tropical adventure stories, survival narratives, travel campaigns, and cinematic coastal scenes with authentic Indonesian island character.",
     "area": "6,98 hektar",
     "facilities": [
       "Resort/cottage terapung", 

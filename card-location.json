@@ -14,11 +14,11 @@
     "link": "location-detail.html?id=bhi"
   },
   {
-    "title": "MRT Blok M atau Blok M",
+    "title": "Kawasan Blok M",
     "location": "Jakarta Selatan",
-    "category": "transport",
+    "category": "residential",
     "image": "gallery/blok-m/CopyofLUT07430.webp",
-    "link": "location-detail.html?id=mrt-blok-m"
+    "link": "location-detail.html?id=blok-m"
   },
   {
     "title": "Pasar Glodok",
@@ -44,14 +44,14 @@
     {
     "title": "Jakarta International Stadium",
     "location": "Jakarta Utara",
-    "category": "sport",
+    "category": "sports",
     "image": "gallery/jis/gZU9g0NS6eaC0xOFw60q7yQ8SOO1pOkmLtcw5iS6.webp",
     "link": "location-detail.html?id=jis"
   },
   {
     "title": "Benteng Martello",
     "location": "Kepulauan Seribu",
-    "category": "coastal",
+    "category": "landmark",
     "image": "gallery/benteng-martello/NCgmd7515F4xiAfiPD83oxAicKk0YlSc4FMsLnKZ.webp",
     "link": "location-detail.html?id=benteng-martello"
   },
@@ -105,7 +105,7 @@
     "link": "location-detail.html?id=jpo-karet"
   },
   {
-    "title": "Sport Center JXB",
+    "title": "Sports Center JXB",
     "location": "Jakarta Barat",
     "category": "sport",
     "image": "gallery/d_arcici-sport-center/JXB06621.webp",
@@ -121,7 +121,7 @@
   {
     "title": "Jakarta Velodrome",
     "location": "Jakarta Utara",
-    "category": "sport",
+    "category": "sports",
     "image": "gallery/jiv/zGf2BA1ZacHv0oL1AlG5WCm4biPKc0ZqqlNJhUI4.webp",
     "link": "location-detail.html?id=jiv"
   },
