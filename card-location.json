@@ -2,8 +2,8 @@
   {
     "title": "Taman Ismail Marzuki",
     "location": "Jakarta Pusat",
-    "category": "park",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "art",
+    "image": "gallery/tim/IMG_3788.webp",
     "link": "location-detail.html?id=tim"
   },
   {
@@ -38,7 +38,7 @@
       "title": "Taman Bendera Pusaka",
       "location": "Jakarta Selatan",
       "category": "park",
-      "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+      "image": "gallery/tmn-bendera-pusaka/ALF00632.webp",
       "link": "location-detail.html?id=tmn-bendera-pusaka"
     },
     {
@@ -58,7 +58,7 @@
   {
     "title": "Pelabuhan Sunda Kelapa",
     "location": "Jakarta Utara",
-    "category": "transport",
+    "category": "port",
     "image": "gallery/sunda-kelapa/pexels-tomfisk-3376481.webp",
     "link": "location-detail.html?id=pelabuhan-sunda-kelapa"
   },
@@ -114,8 +114,8 @@
   {
     "title": "Setu Babakan",
     "location": "Jakarta Selatan",
-    "category": "park",
-    "image": "gallery/taman-ismail-marzuki/IMG_3788.webp",
+    "category": "landmark",
+    "image": "gallery/setu-babakan/15.webp",
     "link": "location-detail.html?id=setu-babakan"
   },
   {

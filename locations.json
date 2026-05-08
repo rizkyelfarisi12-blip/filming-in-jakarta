@@ -11,7 +11,7 @@
       "Storage"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63464.873977306364!2d106.76231714863277!3d-6.190299799999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f51f0ca6b0eb%3A0xe5788342658120f1!2sTaman%20Ismail%20Marzuki%20(TIM)!5e0!3m2!1sen!2sid!4v1777865213711!5m2!1sen!2sid",
-    "gallery": "gallery/taman-ismail-marzuki/"
+    "gallery": "gallery/tim/"
   },   
   {
     "id": "bhi",
@@ -89,7 +89,7 @@
       "Lapangan Padel"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1370898535074!2d106.78891007600957!3d-6.245658677608689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f100669738c1%3A0x543f7865290d0779!2sTaman%20Bendera%20Pusaka!5e0!3m2!1sen!2sid!4v1778052565445!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/tmn-bendera-pusaka/"
   },
     {
     "id": "jis",
@@ -238,15 +238,16 @@
     "id": "setu-babakan",
     "title": "Setu Babakan",
     "description": "Setu Babakan is a neighborhood in Jakarta, known for its residential areas and local amenities.",
-    "area": "area",
+    "area": "289 hektar",
     "facilities": [
-      "Food stalls",
-      "Parking area",
-      "Electricity",
-      "Storage"
+      "Danau (Setu)",
+      "Museum Sejarah Betawi", 
+      "rumah adat Betawi", 
+      "panggung pertunjukan", 
+      "pusat kuliner khas (kerak telor, bir pletok)"
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15861.616763217815!2d106.8135891407282!3d-6.341666498368218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec2c9dd1c945%3A0x217a79a62ac3e4fd!2sSetu%20Babakan!5e0!3m2!1sen!2sid!4v1778054820445!5m2!1sen!2sid",
-    "gallery": "gallery/name/"
+    "gallery": "gallery/setu-babakan/"
   },
     {
     "id": "ragunan",
