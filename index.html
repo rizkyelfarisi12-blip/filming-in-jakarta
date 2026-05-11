@@ -306,18 +306,33 @@
             col.setAttribute('data-category', item.category);
 
             col.innerHTML = `
-                <a href="${item.link}">
-                    <div class="project-wrap">
-                        <div class="img" style="background-image:url(${item.image})">
-                            <span class="tag">${item.category}</span>
-                        </div>
-                        <div class="location-box">
-                            <h5 style="color: white; font-weight: bold;">${item.title}</h5>
-                            <small><i class="fa fa-map-marker"></i> ${item.location}</small>
+            <a href="${item.link}">
+                <div class="project-wrap">
+
+                    <span class="tag">
+                        ${item.category}
+                    </span>
+
+                    <div class="img-wrap">
+                        <div class="img"
+                            style="background-image:url(${item.image})">
                         </div>
                     </div>
-                </a>
-            `;
+
+                    <div class="location-box">
+                        <h5 style="color:white;font-weight:bold;">
+                            ${item.title}
+                        </h5>
+
+                        <small>
+                            <i class="fa fa-map-marker"></i>
+                            ${item.location}
+                        </small>
+                    </div>
+
+                </div>
+            </a>
+        `;
 
             container.appendChild(col);
         });
