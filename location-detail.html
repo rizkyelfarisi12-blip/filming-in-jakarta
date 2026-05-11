@@ -45,15 +45,6 @@
      gtag('js', new Date());
 
      gtag('config', 'G-V0S9GRM6LS');
-
-     document
-    .querySelector('meta[name="description"]')
-    .setAttribute(
-        "content",
-        item.description
-    );
-
-    document.querySelector(".bread").innerText = item.title;
  </script>
 
 </head>
@@ -185,6 +176,7 @@
 </body>
 
 <script>
+
 fetch("locations.json")
 .then(res => res.json())
 .then(data => {
@@ -193,139 +185,160 @@ fetch("locations.json")
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get("id");
 
-    // cari data sesuai id
+    // cari item
     let item = data.find(d => d.id === id);
 
-    document.title =
-    `Filming In Jakarta - ${item.title}`;
-
-    // fallback kalau tidak ada id
+    // fallback
     if (!item) {
-        console.warn("ID tidak ditemukan, pakai data pertama");
         item = data[0];
     }
 
-    // TITLE
+    // =========================
+    // SEO
+    // =========================
+
+    document.title = `Filming In Jakarta - ${item.title}`;
+
+    document
+        .querySelector('meta[name="description"]')
+        .setAttribute("content", item.description);
+
+    // =========================
+    // CONTENT
+    // =========================
+
     document.querySelector(".title-asset").innerText = item.title;
     document.querySelector(".bread").innerText = item.title;
 
-    // DESCRIPTION
-    document.querySelector(".desc-asset").innerText = item.description;
+    document.querySelector(".desc-asset").innerText =
+        item.description;
 
-    // AREA
     document.getElementById("area-size").innerHTML = `
         <strong style="color:#ff5a1f;">Area Size</strong><br>
         ${item.area}
     `;
 
-    // FACILITIES
     document.getElementById("facility").innerHTML = `
         <strong style="color:#ff5a1f;">Facility</strong><br>
         ${item.facilities.join(", ")}
     `;
 
-    // MAP
-    document.querySelector(".map-section iframe").src = item.map;
+    document.querySelector(".map-section iframe").src =
+        item.map;
 
-    // GALLERY
-    const gallery = document.getElementById("gallery");
-    gallery.innerHTML = "";
+    // =========================
+    // LOAD GALLERY BELAKANGAN
+    // =========================
 
-    fetch(item.gallery + "gallery.json")
-    .then(res => res.json())
-    .then(images => {
+    setTimeout(() => {
 
-        images.forEach(file => {
+        const gallery = document.getElementById("gallery");
 
-            const src = item.gallery + file;
+        fetch(item.gallery + "gallery.json")
+        .then(res => res.json())
+        .then(images => {
 
-            const div = document.createElement("div");
+            images.forEach(file => {
 
-            div.className = "gallery-item";
+                const src = item.gallery + file;
 
-            div.innerHTML = `
-                <img src="${src}" 
-                    class="gallery-img"
-                    data-full="${src}"
-                    loading="lazy"
-                    decoding="async">`;
+                const div = document.createElement("div");
 
-            gallery.appendChild(div);
-        });
+                div.className = "gallery-item";
 
-        initLightbox();
-    });
-})
-    .catch(err => console.error("ERROR:", err));
+                div.innerHTML = `
+                    <img 
+                        src="${src}"
+                        class="gallery-img"
+                        data-full="${src}"
+                        loading="lazy"
+                        decoding="async"
+                        width="600"
+                        height="400"
+                    >
+                `;
 
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                dynamicBullets: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-
-    function initLightbox() {
-
-        const images = document.querySelectorAll(".gallery-img");
-        const modal = document.getElementById("lightbox-modal");
-        const modalImg = modal.querySelector("img");
-        const closeBtn = modal.querySelector(".close-btn");
-        const nextBtn = modal.querySelector(".next");
-        const prevBtn = modal.querySelector(".prev");
-        const counter = modal.querySelector(".image-counter");
-
-        let currentIndex = 0;
-
-        function showImage(index) {
-            modalImg.src = images[index].dataset.full;
-            counter.textContent = (index + 1) + " / " + images.length;
-        }
-
-        images.forEach((img, index) => {
-            img.addEventListener("click", () => {
-                currentIndex = index;
-                modal.style.display = "block";
-                showImage(index);
+                gallery.appendChild(div);
             });
+
+            initLightbox();
         });
 
-        closeBtn.onclick = () => modal.style.display = "none";
+    }, 300);
 
-        nextBtn.onclick = () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-        };
+})
+.catch(err => console.error("ERROR:", err));
 
-        prevBtn.onclick = () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            showImage(currentIndex);
-        };
 
-        document.addEventListener("keydown", (e) => {
-            if (modal.style.display === "block") {
-                if (e.key === "Escape") modal.style.display = "none";
-                if (e.key === "ArrowRight") nextBtn.click();
-                if (e.key === "ArrowLeft") prevBtn.click();
-            }
-        });
+// =========================
+// LIGHTBOX
+// =========================
+
+function initLightbox() {
+
+    const images =
+        document.querySelectorAll(".gallery-img");
+
+    const modal =
+        document.getElementById("lightbox-modal");
+
+    const modalImg = modal.querySelector("img");
+
+    const closeBtn =
+        modal.querySelector(".close-btn");
+
+    const nextBtn =
+        modal.querySelector(".next");
+
+    const prevBtn =
+        modal.querySelector(".prev");
+
+    const counter =
+        modal.querySelector(".image-counter");
+
+    let currentIndex = 0;
+
+    function showImage(index) {
+
+        modalImg.src =
+            images[index].dataset.full;
+
+        counter.textContent =
+            (index + 1) + " / " + images.length;
     }
 
-    window.dataLayer = window.dataLayer || [];
+    images.forEach((img, index) => {
 
-     function gtag() {
-         dataLayer.push(arguments);
-     }
-     gtag('js', new Date());
+        img.addEventListener("click", () => {
 
-     gtag('config', 'G-V0S9GRM6LS');
+            currentIndex = index;
+
+            modal.style.display = "block";
+
+            showImage(index);
+        });
+    });
+
+    closeBtn.onclick = () =>
+        modal.style.display = "none";
+
+    nextBtn.onclick = () => {
+
+        currentIndex =
+            (currentIndex + 1) % images.length;
+
+        showImage(currentIndex);
+    };
+
+    prevBtn.onclick = () => {
+
+        currentIndex =
+            (currentIndex - 1 + images.length)
+            % images.length;
+
+        showImage(currentIndex);
+    };
+}
+
 </script>
 </html>
