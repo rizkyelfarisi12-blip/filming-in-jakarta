@@ -3,13 +3,13 @@
 <html lang="en">
 
 <head>
-    <title>Filming In Jakarta - Assets - &lt;?php echo e($asset-&gt;title); ?&gt;</title>
- <meta charset="utf-8">
+ <title>Filming In Jakarta - Location Detail</title>
+<meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta name="description"
-     content="Jakarta is opening its doors to filmmakers, advertisers, and creative content producers seeking unique and versatile filming locations across the vibrant capital city. This initiative not only showcases a wide range of iconic urban spots but also offers exclusive access to valuable assetsWith comprehensive facilities and streamlined permits, your production will benefit from unmatched convenience and professionalism. owned by Regional-Owned Enterprises (BUMD) under the DKI Jakarta Provincial Government.">
- <meta name="keywords" content="Filming, Filimng Location, Filming In Jakarta,">
- <meta name="author" content="Jakarta Experience Board">
+     content="Jakarta is opening its doors to filmmakers, advertisers, and creative content producers seeking unique and versatile filming locations across the vibrant capital city. This initiative not only showcases a wide range of iconic urban spots but also offers exclusive access to valuable assetsWith comprehensive facilities and streamlined permits, your production will benefit from unmatched convenience and professionalism. owned by Regional-Owned Enterprises (BUMD) under the DKI Jakarta Provincial Government, Discover filming locations in Jakarta, production services, permits, crews, studios, and cinematic destinations for international film, TV, and commercial productions.">
+ <meta name="keywords" content="Filming, Filming Location, Filming In Jakarta, Filming Index">
+ <meta name="author" content="Jakarta Film Commission">
 
  <!-- Icon -->
  <link rel="icon" type="image/x-icon" href="assets\icon\logo&icon.ico">
@@ -45,6 +45,15 @@
      gtag('js', new Date());
 
      gtag('config', 'G-V0S9GRM6LS');
+
+     document
+    .querySelector('meta[name="description"]')
+    .setAttribute(
+        "content",
+        item.description
+    );
+
+    document.querySelector(".bread").innerText = item.title;
  </script>
 
 </head>
@@ -54,7 +63,7 @@
         <span class="nav-arrow prev">&#10094;</span>
         <img src="">
         <span class="nav-arrow next">&#10095;</span>
-        <div class="image-counter"></div>
+        <div class="image-counter"></div> 
     </div>
 
 <body>
@@ -187,6 +196,9 @@ fetch("locations.json")
 
     // cari data sesuai id
     const item = data.find(d => d.id === id);
+
+    document.title =
+    `Filming In Jakarta - ${item.title}`;
 
     // fallback kalau tidak ada id
     if (!item) {
