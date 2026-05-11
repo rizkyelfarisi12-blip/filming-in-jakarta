@@ -74,47 +74,47 @@
             <h4>Category</h4>
             <div class="row justify-content-center">
 
-                <div class="category-item" onclick="filterCategory('art')" >
+                <div class="category-item" onclick="filterCategory('art,culture')" >
                     <img src="assets/cover/art&culture.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Art, Culture & Tradition</div>
                 </div> 
  
-                <div class="category-item" onclick="filterCategory('coastal')">
+                <div class="category-item" onclick="filterCategory('coastal,nature')">
                     <img src="assets/cover/coastial&nature.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Coastal & Nature</div>
                 </div>
 
-                <div class="category-item" onclick="filterCategory('landmark')" >
+                <div class="category-item" onclick="filterCategory('landmark,heritage')" >
                     <img src="assets/cover/landmark&heritage.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Landmark & Heritage</div>
                 </div> 
 
-                <div class="category-item" onclick="filterCategory('park')">
+                <div class="category-item" onclick="filterCategory('park,cemetery')">
                     <img src="assets/cover/park&cemetery.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Park & Cemetery</div>
                 </div>
                                
-                <div class="category-item" onclick="filterCategory('port')">
+                <div class="category-item" onclick="filterCategory('port,industry')">
                     <img src="assets/cover/port&industry.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Port & Industry</div>
                 </div>
                                 
-                <div class="category-item" onclick="filterCategory('residential')">
+                <div class="category-item" onclick="filterCategory('residential,community')">
                     <img src="assets/cover/residential&community.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Residential & Community</div>
                 </div>
 
-                <div class="category-item" onclick="filterCategory('sports')">
+                <div class="category-item" onclick="filterCategory('sports,events')">
                     <img src="assets/cover/sport&event.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Sports & Event</div>
                 </div>
 
-                <div class="category-item" onclick="filterCategory('transport')">
+                <div class="category-item" onclick="filterCategory('transport,infrastructure')">
                     <img src="assets/cover/transport&infrastructure.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Transport & Infrastructure</div>
                 </div>
 
-                <div class="category-item" onclick="filterCategory('business')">
+                <div class="category-item" onclick="filterCategory('urban,business')">
                     <img src="assets/cover/urban&business.webp" style="filter: brightness(80%) contrast(80%)">
                     <div class="category-text">Urban & Business</div>
                 </div>
@@ -163,26 +163,26 @@
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
 </body>
 
 <!-- SCRIPT -->
 <script>    
-    let currentFilter = "all";
+    let currentFilter = [];
 
-    function filterCategory(category) {
-        currentFilter = category;
+    function filterCategory(categories) {
+        currentFilter = categories.split(",");
         initPagination();
     }
 
 
+    // pagination and filter logic
     function initPagination() {
 
     const allItems = document.querySelectorAll('.item');
     const items = [];
 
     allItems.forEach(item => {
-        if (currentFilter === "all" || item.dataset.category === currentFilter) {
+        if (currentFilter.length === 0 || currentFilter.includes(item.dataset.category)) {
             item.style.display = '';
             items.push(item);
         } else {
@@ -190,6 +190,7 @@
         }
     });
 
+    // paggination logic
     const perPage = 6;
     const pageCount = Math.ceil(items.length / perPage);
     const pagination = document.getElementById('pagination-controls');
@@ -233,7 +234,6 @@
     showPage(1);
     }
 
-
     document.addEventListener('DOMContentLoaded', initPagination);
 
     const categoryItems = document.querySelectorAll('.category-item');
@@ -246,6 +246,7 @@
     });
 
 
+    // card location
     fetch('card-location.json')
     .then(res => res.json())
     .then(data => {
@@ -259,23 +260,38 @@
             col.setAttribute('data-category', item.category);
 
             col.innerHTML = `
-                <a href="${item.link}">
-                    <div class="project-wrap">
-                        <div class="img" style="background-image:url(${item.image})">
-                            <span class="tag">${item.category}</span>
-                        </div>
-                        <div class="location-box">
-                            <h5 style="color: white; font-weight: bold;">${item.title}</h5>
-                            <small><i class="fa fa-map-marker"></i> ${item.location}</small>
+            <a href="${item.link}">
+                <div class="project-wrap">
+
+                    <span class="tag">
+                        ${item.category}
+                    </span>
+
+                    <div class="img-wrap">
+                        <div class="img"
+                            style="background-image:url(${item.image})">
                         </div>
                     </div>
-                </a>
-            `;
+
+                    <div class="location-box">
+                        <h5 style="color:white;font-weight:bold;">
+                            ${item.title}
+                        </h5>
+
+                        <small>
+                            <i class="fa fa-map-marker"></i>
+                            ${item.location}
+                        </small>
+                    </div>
+
+                </div>
+            </a>
+        `;
 
             container.appendChild(col);
         });
 
-        initPagination(); // penting biar pagination tetap jalan
+        initPagination(); 
     });
 </script>
 </html>

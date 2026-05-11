@@ -16,7 +16,7 @@
   {
     "title": "Kawasan Blok M",
     "location": "Jakarta Selatan",
-    "category": "residential",
+    "category": "community",
     "image": "gallery/blok-m/CopyofLUT07430.webp",
     "link": "location-detail.html?id=blok-m"
   },
@@ -30,7 +30,7 @@
   {
     "title": "Kota Tua",
     "location": "Jakarta Barat",
-    "category": "landmark",
+    "category": "heritage",
     "image": "gallery/kota-tua/15.webp",
     "link": "location-detail.html?id=kota-tua"
   },
@@ -51,7 +51,7 @@
   {
     "title": "Benteng Martello",
     "location": "Kepulauan Seribu",
-    "category": "landmark",
+    "category": "heritage",
     "image": "gallery/benteng-martello/NCgmd7515F4xiAfiPD83oxAicKk0YlSc4FMsLnKZ.webp",
     "link": "location-detail.html?id=benteng-martello"
   },
@@ -128,7 +128,7 @@
   {
     "title": "Pulau Bidadari",
     "location": "Kepulauan Seribu",
-    "category": "coastal",
+    "category": "nature",
     "image": "gallery/pl-bidadari/pulau-bidadari-kepulauan-seribu-jakarta.webp",
     "link": "location-detail.html?id=pl-bidadari"
   },
@@ -136,7 +136,7 @@
     "title": "Ragunan Zoo",
     "location": "Jakarta Selatan",
     "category": "park",
-    "image": "gallery/ragunan/download1.webp",
+    "image": "gallery/ragunan/pexels-vi-t-anh-nguy-n-2150409023-33170735.webp",
     "link": "location-detail.html?id=ragunan"
   }
 ]
