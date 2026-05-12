@@ -78,8 +78,8 @@
         .category-item {
             position: relative;
             flex: 0 0 auto;
-            width: 180px;   /* dari 120 → 180 */
-            height: 110px;  /* dari 80 → 110 */
+            width: 180px;   
+            height: 110px;  
             cursor: pointer;
             overflow: hidden;
             border-radius: 10px;
@@ -427,7 +427,7 @@
         .gallery-item{
             min-height:250px;
         }
-        
+
         /* VARIASI LAYOUT  */
         .gallery-item:nth-child(1) {
             grid-row: span 2;

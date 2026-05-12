@@ -167,10 +167,31 @@
 
 <!-- SCRIPT -->
 <script>    
+    const urlParams = new URLSearchParams(window.location.search);
+
     let currentFilter = [];
 
+    const categoryFromURL =
+        urlParams.get("category");
+
+    if (categoryFromURL) {
+
+    currentFilter = categoryFromURL
+        .split(",")
+        .map(c => c.trim());
+
+    }
+
     function filterCategory(categories) {
+
         currentFilter = categories.split(",");
+
+        history.replaceState(
+            null,
+            "",
+            `?category=${categories}`
+        );
+
         initPagination();
     }
 
@@ -182,7 +203,13 @@
     const items = [];
 
     allItems.forEach(item => {
-        if (currentFilter.length === 0 || currentFilter.includes(item.dataset.category)) {
+        const category =
+    item.dataset.category.trim();
+
+if (
+    currentFilter.length === 0 ||
+    currentFilter.includes(category)
+) {
             item.style.display = '';
             items.push(item);
         } else {
@@ -237,6 +264,21 @@
     document.addEventListener('DOMContentLoaded', initPagination);
 
     const categoryItems = document.querySelectorAll('.category-item');
+    if (categoryFromURL) {
+
+        categoryItems.forEach(item => {
+
+            const onclickValue =
+                item.getAttribute("onclick");
+
+            if (
+                onclickValue &&
+                onclickValue.includes(categoryFromURL)
+            ) {
+                item.classList.add("active");
+            }
+        });
+    }
 
     categoryItems.forEach(item => {
         item.addEventListener('click', function() {

@@ -237,7 +237,11 @@ fetch("locations.json")
     // HIDE LOADER
     // =========================
 
-    loader.classList.remove("show");
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            loader.classList.remove("show");
+        });
+    });
 
     // =========================
     // LOAD GALLERY BELAKANGAN
