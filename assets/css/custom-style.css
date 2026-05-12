@@ -95,7 +95,6 @@
             justify-content: flex-start !important;
         }
 
-
         /* IMAGE */
         .category-item img {
             width: 100%;
@@ -103,7 +102,6 @@
             object-fit: cover;
             transition: 0.4s;
         }
-
 
         /* TEXT DI ATAS GAMBAR */
         .category-text {
@@ -570,3 +568,197 @@
             background: rgba(245,245,245,0.8);
         }
         
+        /* CONTAINER SCROLL */
+        .category-filter .row {
+            display: flex;
+            flex-wrap: nowrap !important;
+
+            overflow-x: auto;
+            overflow-y: hidden;
+
+            gap: 14px;
+            padding-bottom: 14px;
+
+            scroll-behavior: smooth;
+
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* ITEM */
+        .category-item {
+            flex: 0 0 auto;
+            min-width: 180px;
+        }
+
+        /* =========================
+        CUSTOM SCROLLBAR
+        ========================= */
+
+        /* Chrome, Edge, Safari */
+        .category-filter .row::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        .category-filter .row::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.08);
+            border-radius: 20px;
+        }
+
+        .category-filter .row::-webkit-scrollbar-thumb {
+            background: linear-gradient(
+                90deg,
+                #ff5a1f,
+                #ff8c42
+            );
+
+            border-radius: 20px;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+        }
+
+        /* hover */
+        .category-filter .row::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(
+                90deg,
+                #ff6f3c,
+                #ff9f5a
+            );
+        }
+
+        /* Firefox */
+        .category-filter .row {
+            scrollbar-width: thin;
+            scrollbar-color: #ff5a1f rgba(255,255,255,0.08);
+        }
+
+        .category-filter {
+            position: relative;
+        }
+
+        /* kanan */
+        .category-filter::after {
+            content: "";
+            position: absolute;
+
+            right: 0;
+            top: 0;
+
+            width: 70px;
+            height: 100%;
+
+            pointer-events: none;
+
+            background: linear-gradient(
+                to left,
+                white,
+                rgba(255,255,255,0)
+            );
+        }
+
+        /* kiri */
+        .category-filter::before {
+            content: "";
+            position: absolute;
+
+            left: 0;
+            top: 0;
+
+            width: 70px;
+            height: 100%;
+
+            pointer-events: none;
+
+            background: linear-gradient(
+                to right,
+                white,
+                rgba(255,255,255,0)
+            );
+
+            z-index: 2;
+        }
+
+        .category-filter .row {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap: 12px;
+
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 18px;
+
+            position: relative;
+            scroll-behavior: smooth;
+
+            /* firefox */
+            scrollbar-width: thin;
+            scrollbar-color: #ff5a1f #f1f1f1;
+        }
+
+        /* SCROLLBAR CHROME */
+        .category-filter .row::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .category-filter .row::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .category-filter .row::-webkit-scrollbar-thumb {
+            background: linear-gradient(to right, #ff5a1f, #ff7a45);
+            border-radius: 10px;
+        }
+
+        /* CATEGORY CARD */
+        .category-item {
+            flex: 0 0 auto;
+        }
+
+        /* FADE LEFT */
+        .category-filter {
+            position: relative;
+        }
+
+        .category-filter::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 40px;
+            height: calc(100% - 12px);
+
+            z-index: 5;
+            pointer-events: none;
+
+            background: linear-gradient(
+                to right,
+                white,
+                rgba(255,255,255,0)
+            );
+        }
+
+        /* FADE RIGHT */
+        .category-filter::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            width: 40px;
+            height: calc(100% - 12px);
+
+            z-index: 5;
+            pointer-events: none;
+
+            background: linear-gradient(
+                to left,
+                white,
+                rgba(255,255,255,0)
+            );
+        }
+
+        .category-filter {
+            overflow: hidden;
+        }
