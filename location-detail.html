@@ -177,6 +177,10 @@
 
 <script>
 
+const loader = document.getElementById("ftco-loader");
+
+loader.classList.add("show");
+
 fetch("locations.json")
 .then(res => res.json())
 .then(data => {
@@ -207,8 +211,11 @@ fetch("locations.json")
     // CONTENT
     // =========================
 
-    document.querySelector(".title-asset").innerText = item.title;
-    document.querySelector(".bread").innerText = item.title;
+    document.querySelector(".title-asset").innerText =
+        item.title;
+
+    document.querySelector(".bread").innerText =
+        item.title;
 
     document.querySelector(".desc-asset").innerText =
         item.description;
@@ -227,12 +234,19 @@ fetch("locations.json")
         item.map;
 
     // =========================
+    // HIDE LOADER
+    // =========================
+
+    loader.classList.remove("show");
+
+    // =========================
     // LOAD GALLERY BELAKANGAN
     // =========================
 
     setTimeout(() => {
 
-        const gallery = document.getElementById("gallery");
+        const gallery =
+            document.getElementById("gallery");
 
         fetch(item.gallery + "gallery.json")
         .then(res => res.json())
@@ -264,11 +278,15 @@ fetch("locations.json")
             initLightbox();
         });
 
-    }, 300);
+    }, 500);
 
 })
-.catch(err => console.error("ERROR:", err));
+.catch(err => {
 
+    console.error("ERROR:", err);
+
+    loader.classList.remove("show");
+});
 
 // =========================
 // LIGHTBOX
