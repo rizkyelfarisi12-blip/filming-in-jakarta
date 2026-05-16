@@ -69,10 +69,15 @@
 
     <div class="container mt-5">
 
-        <!-- CATEGORY FILTER -->
+       <!-- CATEGORY FILTER -->
+    <div class="category-filter-wrapper">
+
         <div class="category-filter">
-            <h4>Category</h4>
-            <div class="row justify-content-center">
+            <h4 style="text-align: center;">Category</h4>
+                <button class="scroll-btn left" id="scrollLeft">
+                    ‹
+                </button>
+            <div class="category-scroll" id="categoryScroll">
 
                 <div class="category-item" onclick="filterCategory('art,culture')" >
                     <img src="assets/cover/art&culture.webp" style="filter: brightness(80%) contrast(80%)">
@@ -120,7 +125,11 @@
                 </div>
 
             </div>
+            <button class="scroll-btn right" id="scrollRight">
+                ›
+            </button>
         </div>
+    </div>
 
         <!-- LIST CARD-->
         <div class="row" id="asset-list"></div>
@@ -334,6 +343,31 @@ if (
         });
 
         initPagination(); 
+    });
+
+    const scrollContainer =
+        document.getElementById("categoryScroll");
+
+    document
+    .getElementById("scrollLeft")
+    .addEventListener("click", () => {
+
+        scrollContainer.scrollBy({
+            left: -300,
+            behavior: "smooth"
+        });
+
+    });
+
+    document
+    .getElementById("scrollRight")
+    .addEventListener("click", () => {
+
+        scrollContainer.scrollBy({
+            left: 300,
+            behavior: "smooth"
+        });
+
     });
 </script>
 </html>
