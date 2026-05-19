@@ -1,4 +1,64 @@
 
+        .category-card {
+            position: relative;
+            display: block;
+            height: 280px;
+            border-radius: 16px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* overlay default */
+        .category-card .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to top,
+                rgba(0,0,0,0.65),
+                rgba(0,0,0,0.1)
+            );
+            transition: all 0.4s ease;
+        }
+
+        /* hover: ubah jadi gradient warna */
+        .category-card:hover .overlay {
+            background: linear-gradient(
+                to top,
+                rgba(255, 103, 1, 1),
+                /* rgba(233, 55, 2, 0,5), */
+                rgba(203, 22, 6, 0.098)
+
+            );
+        }
+
+        /* Text */
+        .category-card h3 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1px;
+
+            color: #fff; /* pastikan putih */
+            opacity: 1;
+            transition: all 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: scale(1.03);
+        }
+
+        /* .category-card:hover h3 {
+            opacity: 0;
+            transform: translateY(10px);
+        } */
+
        
         /* card location */
         .project-wrap{
