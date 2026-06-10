@@ -22,7 +22,7 @@ format data locations.json:
    {
     "id": "link",
     "title": "title",
-    "description": "desk",
+    "description": "desc",
     "area": "area",
     "facilities": [
       "Food stalls",
@@ -30,6 +30,6 @@ format data locations.json:
       "Electricity",
       "Storage"
     ],
-    "map": "link google maps",
+    "map": "link embed google maps",
     "gallery": "gallery/name/"
   },

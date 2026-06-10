@@ -107,9 +107,9 @@
   {
     "title": "Sports Center JXB",
     "location": "West Jakarta",
-    "category": "sport",
+    "category": "sports",
     "image": "gallery/d_arcici-sport-center/JXB06621.webp",
-    "link": "location-detail.html?id=sport-center-jxb"
+    "link": "location-detail.html?id=sports-center-jxb"
   },
   {
     "title": "Setu Babakan",
@@ -138,5 +138,154 @@
     "category": "park",
     "image": "gallery/ragunan/pexels-vi-t-anh-nguy-n-2150409023-33170735.webp",
     "link": "location-detail.html?id=ragunan"
+  },
+
+
+  {
+    "title": "Taman Menteng",
+    "location": "Central Jakarta",
+    "category": "park",
+    "image": "gallery/",
+    "link": "location-detail.html?id=tmn-menteng"
+  },
+  {
+    "title": "Kali Ciliwung riverview Sudirman",
+    "location": "Central Jakarta",
+    "category": "park",
+    "image": "gallery/",
+    "link": "location-detail.html?id=kali-ciliwung-riverview"
+  },
+  {
+    "title": "Tebet Eco Park",
+    "location": "Central Jakarta",
+    "category": "park",
+    "image": "gallery/",
+    "link": "location-detail.html?id=tebet-eco-park"
+  },
+  {
+    "title": "Taman Spathodea",
+    "location": "South Jakarta",
+    "category": "park",
+    "image": "gallery/tmn-spathodea/Taman-Spathodea-dki-jakarta2.webp",
+    "link": "location-detail.html?id=tmn-spathodea"
+  },
+  {
+    "title": "Grand Cempaka Resort",
+    "location": "Bogor",
+    "category": "residential",
+    "image": "gallery/grand-cempaka/grand-cempaka-resource.webp",
+    "link": "location-detail.html?id=grand-cempaka-resort"
+  },
+  {
+    "title": "Riverview Sudirman",
+    "location": "Central Jakarta",
+    "category": "park",
+    "image": "gallery/sudirman-riverside/creative-zone2.webp",
+    "link": "location-detail.html?id=riverview-sudirman"
+  },
+  {
+    "title": "Hotel Tavia Heritage",
+    "location": "Central Jakarta",
+    "category": "residential",
+    "image": "gallery/hotel-tavia/tavia-hotel.webp",
+    "link": "location-detail.html?id=hotel-tavia-heritage"
+  },
+  {
+    "title": "Hutan Kota GBK",
+    "location": "South Jakarta",
+    "category": "park",
+    "image": "gallery/tmn-gbk/taman-gbk1.webp",
+    "link": "location-detail.html?id=hutan-kota-gbk"
+  },
+  {
+    "title": "Masjid Istiqlal",
+    "location": "Central Jakarta",
+    "category": "landmark",
+    "image": "gallery/masjid-istiqlal/istiqlal3.webp",
+    "link": "location-detail.html?id=masjid-istiqlal"
+  },
+  {
+    "title": "Hutan Kota Srengseng",
+    "location": "West Jakarta",
+    "category": "park",
+    "image": "gallery/",
+    "link": "location-detail.html?id=hutan-kota-srengseng"
+  },
+  {
+    "title": "Wisma Atlet",
+    "location": "",
+    "category": "residential",
+    "image": "gallery/",
+    "link": "location-detail.html?id=wisma-atlet"
+  },
+  {
+    "title": "Rusunawa",
+    "location": "",
+    "category": "residential",
+    "image": "gallery/",
+    "link": "location-detail.html?id=rusunawa"
+  },
+  {
+    "title": "Pasar Seni Ancol",
+    "location": "North Jakarta",
+    "category": "art",
+    "image": "gallery/psr-seni/pasar-seni-1.webp",
+    "link": "location-detail.html?id=psr-seni-ancol"
+  },
+  {
+    "title": "GOR Pasar Minggu",
+    "location": "South Jakarta",
+    "category": "sports",
+    "image": "gallery/",
+    "link": "location-detail.html?id=gor-pasar-minggu"
+  },
+  {
+    "title": "Museum Mandiri",
+    "location": "Central Jakarta",
+    "category": "heritage",
+    "image": "gallery/",
+    "link": "location-detail.html?id=museum-mandiri"
+  },
+  {
+    "title": "Gedung Cipta Niaga",
+    "location": "Central Jakarta",
+    "category": "heritage",
+    "image": "gallery/",
+    "link": "location-detail.html?id=gedung-cipta-niaga"
+  },
+  {
+    "title": "Monumen Nasional",
+    "location": "Central Jakarta",
+    "category": "landmark",
+    "image": "gallery/monas/IMG_9495.webp",
+    "link": "location-detail.html?id=monas"
+  },
+  {
+    "title": "Kawasan Kuningan",
+    "location": "South Jakarta",
+    "category": "business",
+    "image": "gallery/",
+    "link": "location-detail.html?id=kawasan-kuningan"
+  },
+  {
+    "title": "Rumah Sakit Cikini",
+    "location": "Central Jakarta",
+    "category": "community",
+    "image": "gallery/",
+    "link": "location-detail.html?id=rs-cikini"
+  },
+  {
+    "title": "Pusat Produksi Film Negara",
+    "location": "East Jakarta",
+    "category": "community",
+    "image": "gallery/",
+    "link": "location-detail.html?id=pusat-produksi-film-negara"
+  },
+  {
+    "title": "Jakarta Cathedral",
+    "location": "Central Jakarta",
+    "category": "community",
+    "image": "gallery/",
+    "link": "location-detail.html?id=jakarta-cathedral"
   }
 ]

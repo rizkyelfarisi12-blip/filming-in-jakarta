@@ -23,7 +23,6 @@
             transition: all 0.4s ease;
         }
 
-        /* hover: ubah jadi gradient warna */
         .category-card:hover .overlay {
             background: linear-gradient(
                 to top,
@@ -34,7 +33,6 @@
             );
         }
 
-        /* Text */
         .category-card h3 {
             position: absolute;
             bottom: 20px;

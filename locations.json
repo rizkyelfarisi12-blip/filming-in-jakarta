@@ -221,7 +221,7 @@
     "gallery": "gallery/jpo-karet/"
   },
     {
-    "id": "sport-center-jxb",
+    "id": "sports-center-jxb",
     "title": "Sports Center JXB",
     "description": "Sport Center JXB is a multifunctional sports and recreation facility integrated into Jakarta’s tourism and event ecosystem. Designed to support both organized sporting activities and public recreation, the venue combines contemporary sports infrastructure with flexible indoor and outdoor event spaces. Its accessible urban location and modern facilities make it suitable for community engagement, competitions, and branded experiences. For film production, the venue provides adaptable athletic environments ideal for sports campaigns, fitness branding, youth-focused commercials, esports-related productions, and cinematic scenes emphasizing active urban lifestyles.",
     "area": "3,57 hektare",
@@ -294,6 +294,307 @@
     ],
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.800316731567!2d106.73664424068365!3d-6.035832803194894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1b3ffe6c380d%3A0xc01d32db3294d65e!2sPulau%20Bidadari!5e0!3m2!1sen!2sid!4v1778164316746!5m2!1sen!2sid",
     "gallery": "gallery/pl-bidadari/"
+  },
+
+  
+  {
+    "id": "tmn-menteng",
+    "title": "Taman Menteng",
+    "description": "Taman Menteng is a revitalized urban park located in Central Jakarta, developed from the former Persija football stadium into one of the city’s most accessible contemporary public spaces. Surrounded by modern glass structures, open lawns, basketball courts, pedestrian pathways, and community gathering areas, the park represents Jakarta’s evolving urban lifestyle culture. The combination of greenery, active public use, and surrounding metropolitan density creates a balanced city atmosphere. For film production, Taman Menteng offers versatile urban park visuals suitable for youth dramas, lifestyle campaigns, social documentaries, fitness branding, romantic scenes, and productions seeking relatable contemporary Jakarta city life within an open and pedestrian-friendly environment.",
+    "area": "±3 hektar",
+    "facilities": [      
+      "Lapangan futsal", 
+      "Lapangan basket", 
+      "Children playground", 
+      "Jogging path dan pedestrian",
+      "Greenhouse / rumah kaca", 
+      "Air mancur dan Area taman terbuka hijau"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.508730177137!2d106.82673567398977!3d-6.196408693791266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f422b00ee429%3A0xa28d5c5a0efbe12e!2sMenteng%20Park!5e0!3m2!1sen!2sid!4v1779678741528!5m2!1sen!2sid",
+    "gallery": "gallery/tmn-menteng"
+  },
+  {
+    "id": "kali-ciliwung-riverview",
+    "title": "Kali Ciliwung riverview Sudirman",
+    "description": "Kali Ciliwung Riverview Sudirman presents one of Jakarta’s most striking visual contrasts, where the historic Ciliwung River corridor flows beneath the city’s modern financial skyline. Located near the Sudirman business district, the area combines dense urban infrastructure, riverside settlements, elevated roads, and high-rise towers within a single frame. The juxtaposition between natural waterways and metropolitan development reflects the layered realities of Jakarta’s urban transformation. For film production, the location offers cinematic perspectives ideal for social dramas, documentaries, urban thrillers, contemporary photography, and productions exploring themes of modernization, inequality, resilience, and Southeast Asian megacity life.",
+    "area": "±2.000–2.500 m²",
+    "facilities": [      
+      "Riverwalk/pedestrian deck di tepi sungai"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4644633552975!2d106.81986177398981!3d-6.20229539378548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5c36c9eeb8d%3A0xa6df862541387fcb!2sCreative%20Zone%3A%20Riverview%20by%20JXB!5e0!3m2!1sen!2sid!4v1779681719119!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "tebet-eco-park",
+    "title": "Tebet Eco Park",
+    "description": "Tebet Eco Park is one of Jakarta’s most ambitious contemporary green-space revitalization projects, integrating ecological restoration with modern urban recreation in South Jakarta. The park features interconnected bridges, river landscapes, open lawns, interactive play areas, urban forests, and pedestrian-focused public infrastructure designed to encourage environmental awareness and community engagement. Its clean architectural language and lush vegetation create a highly photogenic metropolitan nature setting. For film production, Tebet Eco Park offers cinematic environments suitable for family-oriented productions, lifestyle campaigns, wellness branding, educational content, romantic scenes, and stories centered on sustainability and modern urban living in Southeast Asia.",
+    "area": "7,3 hektar",
+    "facilities": [      
+      "Infinity Link Bridge", 
+      "Children Playground", 
+      "Community Lawn", 
+      "Wetland Boardwalk", 
+      "Thematic Garden", 
+      "Jogging Track", 
+      "Outdoor Fitness Area", 
+      "Amphitheater dan Musholla"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12591.862363627652!2d106.84976278453308!3d-6.238883995309809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f36d922448d5%3A0x83736dbd7ef2b25c!2sTebet%20Eco%20Park!5e0!3m2!1sen!2sid!4v1779682230266!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "tmn-spathodea",
+    "title": "Taman Spathodea",
+    "description": "Taman Spathodea is a quiet neighborhood park in South Jakarta characterized by mature trees, open green fields, shaded jogging paths, and a relaxed residential atmosphere away from the city’s major commercial corridors. Named after the flowering Spathodea tree, the park provides a softer and more intimate urban landscape compared to Jakarta’s larger civic parks. Its calm environment and accessible greenery create a grounded everyday atmosphere reflective of local community life. For film production, Taman Spathodea is suitable for intimate dramas, family narratives, educational content, wellness campaigns, slice-of-life storytelling, and productions requiring understated urban greenery within a residential Jakarta setting.",
+    "area": "±2 hektar",
+    "facilities": [      
+      "Danau kecil/kolam retensi", 
+      "Jogging track", 
+      "Children playground", 
+      "Gazebo", 
+      "Area piknik dan Musholla"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.028843754502!2d106.82250208031495!3d-6.3222268578195395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eddc25029361%3A0x6f4dbaa2a1b356ac!2sTaman%20Spathodea!5e0!3m2!1sen!2sid!4v1779682395447!5m2!1sen!2sid",
+    "gallery": "gallery/tmn-spathodea/"
+  },
+  {
+    "id": "grand-cempaka-resort",
+    "title": "Grand Cempaka Resort",
+    "description": "Grand Cempaka Resort is a hillside hospitality complex located within the greater Jakarta region, offering mountain views, landscaped gardens, recreational facilities, and resort-style architecture surrounded by tropical vegetation. The property combines leisure-oriented amenities with open-air environments that contrast with Jakarta’s dense urban character. Its cooler climate and natural scenery provide visual flexibility for productions requiring retreat, escape, or destination-oriented settings. For film production, the resort offers cinematic environments suitable for corporate retreats, romance films, family entertainment, travel campaigns, wellness branding, and productions seeking accessible highland resort aesthetics near Indonesia’s capital region.",
+    "area": "-",
+    "facilities": [      
+      "Kolam renang", 
+      "Area glamping", 
+      "Taman",
+      "Sungai", 
+      "Fishing area", 
+      "Canoeing", 
+      "Horse riding", 
+      "Outbound area"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58708.040551913706!2d106.90345897027916!3d-6.645359767335076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c83ae9bf31e1%3A0xad5c470dc61b5b18!2sGrand%20Cempaka%20Resort%20%26%20Convention!5e0!3m2!1sen!2sid!4v1779682521260!5m2!1sen!2sid",
+    "gallery": "gallery/grand-cempaka/"
+  },
+  {
+    "id": "riverview-sudirman",
+    "title": "Riverview Sudirman",
+    "description": "Riverview Sudirman offers panoramic urban perspectives where Jakarta’s dense business district intersects with the Ciliwung river system and layered transportation infrastructure. The area captures the complexity of Jakarta’s metropolitan identity through elevated highways, modern skyscrapers, riverside activity, and continuous city movement. Day and night lighting conditions create dramatically different visual atmospheres, ranging from reflective glass towers to illuminated urban density after dark. For film production, Riverview Sudirman is highly suitable for contemporary thrillers, corporate storytelling, documentaries, fashion campaigns, drone cinematography, and productions portraying Jakarta as a dynamic and rapidly evolving Asian megacity.",
+    "area": "2.500–3.000 m²",
+    "facilities": [      
+      "Smart glass toilet", 
+      "Area kuliner UMKM",
+      "Ruang workshop dan aktivasi kreatif"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3966.464174081255!2d106.81996957398977!3d-6.202333843785413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRiverview%20SUdirman!5e0!3m2!1sen!2sid!4v1779682671573!5m2!1sen!2sid",
+    "gallery": "gallery/sudirman-riverside/"
+  },
+  {
+    "id": "hotel-tavia-heritage",
+    "title": "Hotel Tavia Heritage",
+    "description": "Hotel Tavia Heritage combines contemporary hospitality functions with classic architectural styling inspired by Jakarta’s colonial and early modern urban heritage. Located within Central Jakarta’s historic corridor, the property offers elegant interiors, formal hospitality spaces, and proximity to several of the city’s cultural landmarks. The atmosphere balances nostalgia with accessible modern comfort, creating a setting that feels both timeless and metropolitan. For film production, the hotel is suitable for period-inspired storytelling, business dramas, diplomatic scenes, lifestyle campaigns, fashion editorials, and productions requiring refined hospitality interiors with historical character in Indonesia’s capital city.",
+    "area": "5.000–10.000 m²",
+    "facilities": [      
+      "Ballroom dan meeting rooms", 
+      "Restoran dan coffee shop", 
+      "Rooftop / outdoor area", 
+      "Swimming pool, Fitness center"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4122.407982610024!2d106.86022227313151!3d-6.1737260594835845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f549844a1793%3A0xf9f58715a5d229a7!2sTavia%20Heritage%20Hotel!5e0!3m2!1sen!2sid!4v1779682787975!5m2!1sen!2sid",
+    "gallery": "gallery/hotel-tavia/"
+  },
+  {
+    "id": "hutan-kota-gbk",
+    "title": "Hutan Kota GBK",
+    "description": "Hutan Kota GBK is a contemporary urban forest park located within the Gelora Bung Karno sports complex in Central Jakarta. Surrounded by Jakarta’s skyline, the site combines landscaped lawns, tree canopies, lakeside scenery, and open public gathering spaces with direct views of high-rise buildings and sports infrastructure. The contrast between greenery and modern architecture creates one of Jakarta’s most recognizable urban lifestyle environments. For film production, Hutan Kota GBK offers cinematic metropolitan park visuals ideal for music videos, luxury branding, fitness campaigns, romantic dramas, outdoor events, and productions seeking a polished balance between nature and modern city identity.",
+    "area": "±4 hektar",
+    "facilities": [      
+      "Lahan terbuka", 
+      "Amphitheater", 
+      "Walking path", 
+      "Restoran dan café", 
+      "Area event"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3261587616785!2d106.80289447398998!3d-6.2206516937673415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16f5418b91b%3A0x56f0877bdf0e4614!2sHutan%20Kota%20GBK!5e0!3m2!1sen!2sid!4v1779682994566!5m2!1sen!2sid",
+    "gallery": "gallery/tmn-gbk/"
+  },
+  {
+    "id": "masjid-istiqlal",
+    "title": "Masjid Istiqlal",
+    "description": "Istiqlal Mosque is Southeast Asia’s largest mosque and one of Indonesia’s most significant national landmarks, symbolizing independence, religious harmony, and monumental civic architecture. Designed by architect Friedrich Silaban and completed in 1978, the mosque features vast prayer halls, towering columns, marble interiors, and expansive ceremonial courtyards. Located adjacent to Jakarta Cathedral, the site reflects Indonesia’s pluralistic national identity within a major urban setting. For film production, Istiqlal offers grand architectural scale suitable for historical narratives, documentaries, diplomatic productions, cultural storytelling, religious programming, and cinematic scenes requiring monumental spiritual environments.",
+    "area": "±9,5 hektar",
+    "facilities": [      
+      "Ruang salat utama", 
+      "Selasar dan plaza", 
+      "Auditorium"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.810105862513!2d106.81271630883367!3d-6.17057138240612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5ce68b5e01d%3A0xcafaf042d5840c6c!2sIstiqlal%20Mosque!5e0!3m2!1sen!2sid!4v1779683037153!5m2!1sen!2sid",
+    "gallery": "gallery/masjid-istiqlal/"
+  },
+  {
+    "id": "hutan-kota-srengseng",
+    "title": "Hutan Kota Srengseng",
+    "description": "Hutan Kota Srengseng is one of Jakarta’s largest urban forest conservation areas, located in West Jakarta and centered around a man-made lake surrounded by dense tropical vegetation. The site contains bamboo groves, elevated walkways, wildlife habitats, and ecological restoration zones that create a secluded natural atmosphere within the metropolitan area. Compared to Jakarta’s more formal parks, Srengseng offers a wilder and more immersive environmental character. For film production, the urban forest is suitable for adventure scenes, ecological documentaries, educational programming, survival narratives, wellness campaigns, and productions requiring tropical greenery without leaving Jakarta’s urban boundaries.",
+    "area": "15 hektare",
+    "facilities": [      
+      "Danau Buatan", 
+      "jogging track", 
+      "area senam", 
+      "hingga dinding panjat tebal (wall climbing)",
+      "ayunan", 
+      "perosotan", 
+      "bangku taman", 
+      "saung/pujasera", 
+      "musala"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4018919775835!2d106.76196787398985!3d-6.210606793777163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f72f3706b613%3A0x11aab933dc9527ac!2sHutan%20Kota%20Srengseng!5e0!3m2!1sen!2sid!4v1779683121811!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "wisma-atlet",
+    "title": "Wisma Atlet",
+    "description": "Wisma Atlet Kemayoran is a large-scale residential and event accommodation complex originally developed for the 2018 Asian Games in Central Jakarta. The area consists of high-rise residential towers, integrated public facilities, wide internal roads, and dense modular architectural repetition that reflects Jakarta’s large-scale urban infrastructure development. The complex gained additional national significance during the COVID-19 pandemic as an emergency healthcare facility. For film production, Wisma Atlet offers visually powerful large-scale residential imagery suitable for disaster films, social dramas, dystopian narratives, governmental documentaries, urban realism, and productions exploring themes of population density and metropolitan resilience.",
+    "area": "-",
+    "facilities": [      
+      "Unit hunian",
+      "Ruang serbaguna"
+    ],
+    "map": "",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "rusunawa",
+    "title": "Rusunawa",
+    "description": "Jakarta’s Rusunawa complexes represent the city’s public low-cost vertical housing infrastructure designed to accommodate urban communities within high-density environments. Characterized by repetitive modular architecture, narrow corridors, communal gathering spaces, and tightly connected neighborhood interactions, these residential environments capture an authentic portrait of everyday metropolitan life. The atmosphere combines social intimacy with the realities of urban adaptation and economic mobility. For film production, Rusunawa settings are highly suitable for social realism, coming-of-age stories, documentaries, urban dramas, independent cinema, and productions seeking grounded representations of contemporary working-class life in Jakarta.",
+    "area": "-",
+    "facilities": [      
+      "Unit hunian",
+      "Ruang serbaguna"
+    ],
+    "map": "",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "psr-seni-ancol",
+    "title": "Pasar Seni Ancol",
+    "description": "Pasar Seni Ancol is Jakarta’s long-established arts marketplace and creative community hub located within the Ancol waterfront complex. The area features open-air galleries, artist studios, craft stalls, mural walls, performance spaces, and tropical pedestrian pathways that foster an active creative atmosphere. Since the 1970s, the site has served as a gathering place for painters, sculptors, performers, and local artisans. For film production, Pasar Seni offers colorful artistic environments suitable for creative-industry campaigns, youth culture storytelling, documentaries, independent cinema, music videos, and productions highlighting Jakarta’s evolving contemporary arts ecosystem.",
+    "area": "±5,25 hektar",
+    "facilities": [      
+      "Studio seniman", 
+      "Galeri", 
+      "Plaza terbuka"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.03115642345!2d106.836328923989!3d-6.126509693860218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1e184ec2b8f3%3A0x8fd2a44632896350!2sPasar%20Seni%20Ancol!5e0!3m2!1sen!2sid!4v1779683893071!5m2!1sen!2sid",
+    "gallery": "gallery/psr-seni/"
+  },
+  {
+    "id": "gor-pasar-minggu",
+    "title": "GOR Pasar Minggu",
+    "description": "GOR Pasar Minggu is a multifunctional public sports facility in South Jakarta that combines indoor athletic halls, spectator seating, community recreation spaces, and surrounding neighborhood activity. The venue reflects the social role of local sports infrastructure within Jakarta’s residential districts, where organized competitions coexist with informal community gatherings. Its utilitarian architecture and active atmosphere create a relatable everyday urban setting. For film production, the facility is suitable for sports dramas, youth-focused commercials, community documentaries, educational programming, and productions emphasizing grassroots athletic culture and neighborhood interaction within Indonesia’s capital city.",
+    "area": "-",
+    "facilities": [      
+      "Lapangan indoor", 
+      "Tribun", 
+      "Ruang ganti"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8386386395105!2d106.83482787399066!3d-6.284931293703981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f213b9a1b9db%3A0x35951e9783a0f5a6!2sGOR%20Pasar%20Minggu!5e0!3m2!1sen!2sid!4v1779684025589!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "museum-mandiri",
+    "title": "Museum Mandiri",
+    "description": "Museum Mandiri is a preserved colonial-era banking building located in Jakarta Old Town, originally constructed in the 1920s as the headquarters of the Netherlands Trading Society. The structure features grand Art Deco interiors, marble halls, high ceilings, historic vaults, and period furnishings that reflect Batavia’s financial history during the Dutch colonial era. Its architectural preservation creates one of Jakarta’s most visually authentic heritage interiors. For film production, Museum Mandiri offers exceptional settings for period dramas, historical thrillers, diplomatic scenes, fashion editorials, documentaries, and productions requiring elegant colonial-era financial or institutional environments.",
+    "area": "±10.039 m²",
+    "facilities": [      
+      "Hall utama", 
+      "Ruang pamer", 
+      "Arsip", 
+      "Auditorium kecil"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9405789342413!2d106.81033547398914!3d-6.138685493848208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f601907b7e9b%3A0x8b5da2cbdd9a964!2sMuseum%20Mandiri!5e0!3m2!1sen!2sid!4v1779684104462!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "gedung-cipta-niaga",
+    "title": "Gedung Cipta Niaga",
+    "description": "Gedung Cipta Niaga is a historic commercial building within Jakarta’s Old Town district that reflects the architectural legacy of Batavia’s colonial trading economy. Characterized by preserved facades, large windows, weathered textures, and proximity to historic warehouses and canals, the building contributes to the layered historical atmosphere of the surrounding heritage zone. Its visual identity combines economic history with urban decay and restoration. For film production, Gedung Cipta Niaga is highly suitable for historical narratives, noir-inspired cinematography, documentaries, fashion campaigns, and productions requiring atmospheric colonial commercial architecture within Southeast Asia.",
+    "area": "-",
+    "facilities": [      
+      "Ruang hall", 
+      "Koridor heritage", 
+      "loteng heritage"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9716113920836!2d106.8093740739892!3d-6.134516693852362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1dff34cd07b5%3A0xc07de1805bc12fc2!2sGedung%20Cipta%20Niaga%20Kota%20Tua!5e0!3m2!1sen!2sid!4v1779684188577!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "monas",
+    "title": "Monumen Nasional",
+    "description": "Monumen Nasional (Monas) is Indonesia’s most iconic national monument and the symbolic heart of Jakarta’s civic identity. Rising 132 meters above Merdeka Square, the monument combines monumental modernist architecture with expansive ceremonial grounds, formal landscaping, museums, and panoramic city views. Built to commemorate Indonesia’s independence struggle, Monas functions as both a national landmark and major public gathering space. For film production, the site offers grand civic visuals ideal for patriotic campaigns, state-related narratives, historical documentaries, aerial cinematography, public-event scenes, and productions requiring instantly recognizable imagery of Indonesia’s capital city.",
+    "area": "±80 hektar",
+    "facilities": [      
+      "Plaza, Museum sejarah",
+      "Lift ke puncak",
+      "Taman"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.667056999038!2d106.82453567398956!3d-6.175308293812077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sNational%20Monument!5e0!3m2!1sen!2sid!4v1779684306171!5m2!1sen!2sid",
+    "gallery": "gallery/monas/"
+  },
+  {
+    "id": "kawasan-kuningan",
+    "title": "Kawasan Kuningan",
+    "description": "Kawasan Kuningan is one of Jakarta’s primary diplomatic and commercial districts, defined by international embassies, premium office towers, luxury residences, hotels, and multilayered transportation corridors. The area combines dense metropolitan development with strong international presence, creating a distinctly global urban atmosphere within Indonesia’s capital. Glass skyscrapers, elevated roads, and active business activity dominate the visual landscape. For film production, Kuningan offers sleek contemporary city visuals suitable for corporate storytelling, political thrillers, luxury commercials, diplomatic scenes, fashion campaigns, and productions portraying Jakarta as an internationally connected Asian metropolis.",
+    "area": "54 hektar",
+    "facilities": [      
+      "Gedung perkantoran", 
+      "Hotel", 
+      "Kedutaan", 
+      "Mall", 
+      "Boulevard"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31729.872249120144!2d106.81620936974103!3d-6.232849332537793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3f8e1921751%3A0xf1baa61d5f411562!2sKuningan%2C%20Karet%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1779701215279!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "rs-cikini",
+    "title": "Rumah Sakit Cikini",
+    "description": "Rumah Sakit Cikini is one of Jakarta’s historically significant healthcare institutions, located within the city’s cultural and educational corridor in Central Jakarta. The complex combines older institutional architecture with active medical facilities, creating an atmosphere that reflects Jakarta’s layered urban history and public-service infrastructure. Its location near historic neighborhoods and civic institutions strengthens its metropolitan identity. For film production, the hospital environment is suitable for medical dramas, historical narratives, social documentaries, emergency-response scenes, and productions requiring authentic healthcare settings within a dense Southeast Asian urban environment.",
+    "area": "5.6 hektar",
+    "facilities": [      
+      "IGD", 
+      "Rawat inap", 
+      "Lobby", 
+      "Parkir"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.543852044765!2d106.83942357398972!3d-6.191734143795862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f440b1aacf5d%3A0x3ca6c19d4c07c06c!2sRS%20Cikini!5e0!3m2!1sen!2sid!4v1779701342602!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+      {
+    "id": "pusat-produksi-film-negara",
+    "title": "Pusat Produksi Film Negara",
+    "description": "Pusat Produksi Film Negara (PPFN) is Indonesia’s historic state-owned film production center, established as part of the country’s national cinema infrastructure development. The complex contains soundstage facilities, production offices, archival spaces, and legacy film-production environments associated with decades of Indonesian filmmaking history. Its institutional atmosphere reflects the evolution of Indonesia’s cinematic industry from the post-independence era to contemporary production culture. For film production, PPFN offers authentic studio environments suitable for behind-the-scenes narratives, film-industry documentaries, retro productions, independent cinema, and projects exploring the historical development of Southeast Asian filmmaking.",
+    "area": "2.5 hektar",
+    "facilities": [      
+      "Sound stage", 
+      "Studio film", 
+      "Gudang properti", 
+      "Kantor produksi"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10386.557413453225!2d106.86626192889224!3d-6.237560735538092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f374d9fa964f%3A0x4862cc6f9a4f40fd!2sPT%20Produksi%20Film%20Negara%20(Persero)!5e0!3m2!1sen!2sid!4v1779701393401!5m2!1sen!2sid",
+    "gallery": "gallery/"
+  },
+  {
+    "id": "jakarta-cathedral",
+    "title": "Jakarta Cathedral",
+    "description": "Jakarta Cathedral is a neo-Gothic Roman Catholic landmark located directly opposite Istiqlal Mosque in Central Jakarta, symbolizing Indonesia’s interfaith coexistence and colonial-era architectural heritage. Completed in 1901, the cathedral features towering spires, stained-glass windows, vaulted interiors, and intricate European-inspired detailing rarely found elsewhere in Southeast Asia. The surrounding civic setting reinforces its monumental presence within Jakarta’s historical core. For film production, the cathedral provides visually dramatic religious architecture suitable for historical dramas, wedding scenes, cultural documentaries, diplomatic storytelling, period productions, and cinematic narratives requiring atmospheric sacred interiors.",
+    "area": "±1.200 m²",
+    "facilities": [      
+      "Nave utama", 
+      "Museum", 
+      "Area doa", 
+      "Taman kecil"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.712503596153!2d106.83080087398956!3d-6.169238293818072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5cef86e21ad%3A0x3ecfda74692fc79!2sCathedral%20of%20Our%20Lady%20of%20the%20Assumption!5e0!3m2!1sen!2sid!4v1779701731617!5m2!1sen!2sid",
+    "gallery": "gallery/"
   }
   
 ]
