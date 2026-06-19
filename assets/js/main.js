@@ -283,21 +283,40 @@
 
 
 
-      // fungsi untuk load komponen
-        function loadComponent(id, url) {
-            fetch(url)
-                .then(res => res.text())
-                .then(data => {
-                    document.getElementById(id).innerHTML = data;
-                })
-                .catch(err => console.error("Component error:", err));
+    // fungsi untuk load komponen
+    function loadComponent(id, url) {
+
+        const target =
+            document.getElementById(id);
+
+        if(!target){
+            console.warn(
+                "Element not found:",
+                id
+            );
+            return;
         }
 
-        // load components
-        loadComponent("navbar", "components/navbar.html");
-        loadComponent("contact-card", "components/contact-card.html");
-        loadComponent("footer", "components/footer.html");
-        loadComponent("floating-wa", "components/floating-wa.html");
+        fetch(url)
+            .then(res => res.text())
+            .then(data => {
+
+                target.innerHTML = data;
+
+            })
+            .catch(err =>
+                console.error(
+                    "Component error:",
+                    err
+                )
+            );
+    }
+
+    // load components
+    loadComponent("navbar", "components/navbar.html");
+    loadComponent("contact-card", "components/contact-card.html");
+    loadComponent("footer", "components/footer.html");
+    loadComponent("floating-wa", "components/floating-wa.html");
 
         
 

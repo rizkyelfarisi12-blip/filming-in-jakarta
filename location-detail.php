@@ -1,9 +1,53 @@
+<?php
+
+include "admin/includes/db.php";
+
+$slug = $_GET['slug'] ?? '';
+
+$location = mysqli_fetch_assoc(
+    mysqli_query(
+        $conn,
+        "SELECT *
+        FROM locations
+        WHERE slug='".mysqli_real_escape_string($conn,$slug)."'
+        AND is_published=1
+        LIMIT 1"
+    )
+);
+
+if(!$location){
+    die("Location not found");
+}
+
+$gallery = mysqli_query(
+    $conn,
+    "SELECT *
+    FROM location_gallery
+    WHERE location_id='".$location['id']."'
+    ORDER BY sort_order ASC,id ASC"
+);
+
+$facilities =
+json_decode(
+    $location['facilities'],
+    true
+) ?? [];
+
+$categories =
+json_decode(
+    $location['category'],
+    true
+) ?? [];
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
- <title>Filming In Jakarta - Location Detail</title>
+    <title>
+    Filming In Jakarta -
+    <?= htmlspecialchars($location['name']) ?>
+    </title>
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta name="description"
@@ -16,7 +60,7 @@
  <link rel="shortcut icon" href="assets\icon\logo&icon.ico">
  <link href="assets\icon\logo&icon.ico" rel="apple-touch-icon">
  
- <link rel="preload" href="locations.json" as="fetch" crossorigin>
+ <!-- <link rel="preload" href="locations.json" as="fetch" crossorigin> -->
  <link rel="preload" as="image" href="assets/cover/banner.webp">
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +94,8 @@
  </script>
 
 </head>
-  <!-- LIGHTBOX HTML -->
+<body>
+    <!-- LIGHTBOX HTML -->
     <div id="lightbox-modal">
         <span class="close-btn">
             &times;
@@ -66,7 +111,6 @@
 
     </div>
 
-<body>
     <div id="navbar"></div>
 
     <section class="hero-wrap hero-wrap-2 hero-background">
@@ -78,7 +122,9 @@
                                     class="fa fa-chevron-right"></i></a></span> <span><a
                                 href="https://filminginjakarta.com/location-list.html">location list </a><i
                                 class="fa fa-chevron-right"></i><a> location detail </a></span></p>
-                    <h1 class="mb-0 bread" id="hero-title"></h1>
+                    <h1 class="mb-0 bread">
+                    <?= htmlspecialchars($location['name']) ?>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -89,7 +135,7 @@
 
             <!-- BACK -->
             <div class="back-wrapper">
-                <a href="location-list.html" class="back-btn">
+                <a href="location-list.php" class="back-btn">
                     <span class="back-icon">←</span>
                     <span>Back to List</span>
                 </a>
@@ -97,14 +143,21 @@
 
             <!-- TITLE -->
             <div class="text-center text-center mb-4">
-                <h2 class="title-asset" id="title"
-                style="text-align: left; padding-left: 10px; padding-bottom: 20px;"></h2>
+                <h2
+                class="title-asset"
+                style="text-align:left;padding-left:10px;padding-bottom:20px;"
+                >
+                <?= htmlspecialchars($location['name']) ?>
+                </h2>
                 <div class="row align-items-start">
 
             <!-- LEFT: DESCRIPTION 700 max letter-->    
             <div class="col-md-8">
-                <p class="desc-asset" id="description" 
-                style="color:#666; line-height:1.7; text-align: justify;">
+                <p
+                class="desc-asset"
+                style="color:#666;line-height:1.7;text-align:justify;"
+                >
+                <?= nl2br(htmlspecialchars($location['description'])) ?>
                 </p>
             </div>
 
@@ -112,8 +165,24 @@
             <div class="col-md-4">
                 <div class="card-detail">
                     <ul style="padding-left:15px; margin:0;">
-                        <li id="area-size"></li>
-                        <li id="facility" style="margin-top:10px;"></li>
+
+                        <li>
+                        <strong style="color:#ff5a1f;">
+                        Area Size
+                        </strong>
+                        <br>
+                        <?= htmlspecialchars($location['area_size']) ?>
+                        </li>
+
+                        <li style="margin-top:10px;">
+                        <strong style="color:#ff5a1f;">
+                        Facilities
+                        </strong>
+                        <br>
+                        <?= implode(", ",$facilities) ?>
+
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -122,7 +191,23 @@
         </div>
 
        <!-- GALLERY -->
-        <div id="gallery" class="gallery-grid"></div>
+        <div id="gallery" class="gallery-grid">
+
+        <?php while($img=mysqli_fetch_assoc($gallery)): ?>
+
+        <div class="gallery-item">
+
+        <img
+        src="uploads/gallery/<?= $location['slug'] ?>/<?= $img['image_path'] ?>"
+        class="gallery-img loaded"
+        data-full="uploads/gallery/<?= $location['slug'] ?>/<?= $img['image_path'] ?>"
+        loading="lazy">
+
+        </div>
+
+        <?php endwhile; ?>
+
+        </div>
 
         
         <!-- MAP -->
@@ -132,14 +217,16 @@
                 Click to Load Map
             </div>
             <iframe
-                id="map-frame"
-                width="100%"
-                height="400"
-                loading="lazy"
-                style="display:none;">
+            id="map-frame"
+            src="<?= htmlspecialchars($location['map_location']) ?>"
+            width="100%"
+            height="400"
+            loading="lazy"
+            style="display:none;">
             </iframe>
 
-    </div>
+        </div>
+
     </div>
     </section>
     <!-- Floating WhatsApp Button & footer -->
@@ -171,7 +258,7 @@
     <script src="assets/js/scrollax.min.js"></script>
 
     <script src="assets/js/main.js"></script>
-    <script src="https://filminginjakarta.co.id/assets/js/lightbox.js"></script>
+    <!-- <script src="https://filminginjakarta.com/assets/js/lightbox.js"></script> -->
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -194,196 +281,7 @@
     </script>
 
 </body>
-
-<!-- =========================
-MAIN SCRIPT
-========================= -->
-
 <script>
-    fetch("locations.json")
-
-    .then(res => res.json())
-
-    .then(data => {
-
-        // =========================
-        // GET ID
-        // =========================
-
-        const urlParams =
-            new URLSearchParams(window.location.search);
-
-        const id =
-            urlParams.get("id");
-
-        let item =
-            data.find(d => d.id === id);
-
-        if(!item){
-            item = data[0];
-        }
-
-        // =========================
-        // SEO
-        // =========================
-
-        document.title =
-            `Filming In Jakarta - ${item.title}`;
-
-        document
-        .querySelector('meta[name="description"]')
-        .setAttribute(
-            "content",
-            item.description
-        );
-
-        // =========================
-        // CONTENT
-        // =========================
-
-        document.querySelector(".title-asset")
-        .innerText = item.title;
-
-        document.querySelector(".bread")
-        .innerText = item.title;
-
-        document.querySelector(".desc-asset")
-        .innerText = item.description;
-
-        document.getElementById("area-size")
-        .innerHTML = `
-            <strong style="color:#ff5a1f;">
-                Area Size
-            </strong><br>
-            ${item.area}
-        `;
-
-        document.getElementById("facility")
-        .innerHTML = `
-            <strong style="color:#ff5a1f;">
-                Facility
-            </strong><br>
-            ${item.facilities.join(", ")}
-        `;
-
-        // =========================
-        // HIDE LOADER
-        // =========================
-
-        const loader =
-            document.getElementById("ftco-loader");
-
-        loader.classList.remove("show");
-
-        // =========================
-        // MAP LOAD ON CLICK
-        // =========================
-
-        const mapFrame =
-            document.getElementById("map-frame");
-
-        const mapPlaceholder =
-            document.getElementById("map-placeholder");
-
-        mapPlaceholder.addEventListener("click", () => {
-
-            mapFrame.src = item.map;
-
-            mapFrame.style.display = "block";
-
-            mapPlaceholder.style.display = "none";
-        });
-
-        // =========================
-        // LAZY GALLERY LOAD
-        // =========================
-
-        const gallerySection =
-            document.getElementById("gallery");
-
-        const observer =
-            new IntersectionObserver((entries) => {
-
-            if(entries[0].isIntersecting){
-
-                loadGallery(item);
-
-                observer.disconnect();
-            }
-
-        }, {
-            rootMargin:"300px"
-        });
-
-        observer.observe(gallerySection);
-
-    })
-
-    .catch(err => {
-
-        console.error(err);
-
-    });
-
-    // =========================
-    // LOAD GALLERY
-    // =========================
-
-    function loadGallery(item){
-
-        const gallery =
-            document.getElementById("gallery");
-
-        fetch(item.gallery + "gallery.json")
-
-        .then(res => res.json())
-
-        .then(images => {
-
-            images.forEach(file => {
-
-                // THUMBNAIL
-                const thumb =
-                    item.gallery + file;
-
-                // FULL
-                const full =
-                    item.gallery + file;
-
-                const div =
-                    document.createElement("div");
-
-                div.className =
-                    "gallery-item";
-
-                div.innerHTML = `
-                    <img
-                        src="${thumb}"
-                        data-full="${full}"
-                        class="gallery-img"
-                        loading="lazy"
-                        decoding="async"
-                    >
-                `;
-
-                gallery.appendChild(div);
-
-                const img =
-                    div.querySelector("img");
-
-                img.onload = () => {
-
-                    img.classList.add("loaded");
-
-                    div.style.animation = "none";
-                };
-            });
-
-            initLightbox();
-        });
-    }
-
-
     // =========================
     // LIGHTBOX
     // =========================
@@ -477,5 +375,45 @@ MAIN SCRIPT
             }
         });
     }
+
+    document.querySelectorAll(".gallery-img").forEach(img => {
+
+        if(img.complete){
+
+            img.classList.add("loaded");
+
+            img.parentElement.style.animation = "none";
+
+        }else{
+
+            img.onload = function(){
+
+                img.classList.add("loaded");
+
+                img.parentElement.style.animation = "none";
+            };
+        }
+
+    });
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        function(){
+
+            initLightbox();
+
+        }
+    );
+
+    document
+    .getElementById("map-placeholder")
+    .addEventListener("click", function(){
+
+        document.getElementById("map-frame")
+        .style.display = "block";
+
+        this.style.display = "none";
+
+    });
 </script>
 </html>

@@ -1,3 +1,15 @@
+<?php
+
+include "admin/includes/db.php";
+
+$locations = mysqli_query(
+    $conn,
+    "SELECT *
+    FROM locations
+    WHERE is_published = 1
+    ORDER BY name ASC"
+);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -132,7 +144,84 @@
     </div>
 
         <!-- LIST CARD-->
-        <div class="row" id="asset-list"></div>
+        <!-- <div class="row" id="asset-list"></div> -->
+         <div class="row" id="asset-list">
+
+            <?php while($item = mysqli_fetch_assoc($locations)): ?>
+
+                <div
+                class="col-md-4 item"
+                data-category="<?= htmlspecialchars(
+                    json_decode(
+                        $item['category'],
+                        true
+                    )[0] ?? ''
+                ) ?>"
+                >
+
+                    <a href="location-detail.php?slug=<?= $item['slug'] ?>">
+
+                        <div class="project-wrap">
+
+                            <span class="tag">
+
+                            <?= ucfirst(
+                                json_decode(
+                                    $item['category'],
+                                    true
+                                )[0] ?? ''
+                            ) ?>
+
+                            </span>
+
+                            <div class="img-wrap">
+
+                            <div
+                            class="img"
+                            style="
+                            background-image:url(
+                            uploads/covers/<?= $item['cover_image'] ?>
+                            );
+                            "
+                            ></div>
+
+                            </div>
+
+                            <div class="location-box">
+
+                                <h5
+                                style="
+                                color:white;
+                                font-weight:bold;
+                                "
+                                >
+
+                                <?= htmlspecialchars($item['name']) ?>
+
+                                </h5>
+
+                                <small>
+
+                                <i class="fa fa-map-marker"></i>
+
+                                <?= htmlspecialchars(
+                                    $item['manager']
+                                ) ?>
+
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <?php endwhile; ?>
+
+            </div>
+
 
         <!-- PAGINATION -->
         <div id="pagination-controls"></div>
@@ -298,52 +387,52 @@ if (
 
 
     // card location
-    fetch('card-location.json')
-    .then(res => res.json())
-    .then(data => {
+    // fetch('card-location.json')
+    // .then(res => res.json())
+    // .then(data => {
 
-        const container = document.getElementById('asset-list');
+    //     const container = document.getElementById('asset-list');
 
-        data.forEach(item => {
+    //     data.forEach(item => {
 
-            const col = document.createElement('div');
-            col.className = 'col-md-4 item';
-            col.setAttribute('data-category', item.category);
+    //         const col = document.createElement('div');
+    //         col.className = 'col-md-4 item';
+    //         col.setAttribute('data-category', item.category);
 
-            col.innerHTML = `
-            <a href="${item.link}">
-                <div class="project-wrap">
+    //         col.innerHTML = `
+    //         <a href="${item.link}">
+    //             <div class="project-wrap">
 
-                    <span class="tag">
-                        ${item.category}
-                    </span>
+    //                 <span class="tag">
+    //                     ${item.category}
+    //                 </span>
 
-                    <div class="img-wrap">
-                        <div class="img"
-                            style="background-image:url(${item.image})">
-                        </div>
-                    </div>
+    //                 <div class="img-wrap">
+    //                     <div class="img"
+    //                         style="background-image:url(${item.image})">
+    //                     </div>
+    //                 </div>
 
-                    <div class="location-box">
-                        <h5 style="color:white;font-weight:bold;">
-                            ${item.title}
-                        </h5>
+    //                 <div class="location-box">
+    //                     <h5 style="color:white;font-weight:bold;">
+    //                         ${item.title}
+    //                     </h5>
 
-                        <small>
-                            <i class="fa fa-map-marker"></i>
-                            ${item.location}
-                        </small>
-                    </div>
+    //                     <small>
+    //                         <i class="fa fa-map-marker"></i>
+    //                         ${item.location}
+    //                     </small>
+    //                 </div>
 
-                </div>
-            </a>
-        `;
+    //             </div>
+    //         </a>
+    //     `;
 
-            container.appendChild(col);
-        });
+    //         container.appendChild(col);
+    //     });
 
-        initPagination(); 
-    });
+    //     initPagination(); 
+    // });
 
     const scrollContainer =
         document.getElementById("categoryScroll");

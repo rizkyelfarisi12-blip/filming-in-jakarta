@@ -1,3 +1,15 @@
+<?php
+include "admin/includes/db.php";
+
+$featured = mysqli_query(
+    $conn,
+    "SELECT *
+    FROM locations
+    WHERE is_published = 1
+    ORDER BY id DESC
+    LIMIT 3"
+);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -121,7 +133,56 @@
             </div>
             
             <!-- Featured Location Cards -->
-            <div class="row" id="featured-list"></div>
+            <div class="row">
+
+            <?php while($item = mysqli_fetch_assoc($featured)): ?>
+
+            <?php
+            $categories = json_decode($item['category'], true) ?? [];
+            $category = !empty($categories)
+                ? ucfirst($categories[0])
+                : 'Location';
+
+            $cover =
+                !empty($item['cover_image'])
+                ? "uploads/covers/".$item['cover_image']
+                : "assets/cover/default.webp";
+            ?>
+
+            <div class="col-md-4 item">
+                <a href="location-detail.php?slug=<?= urlencode($item['slug']) ?>">
+                    <div class="project-wrap">
+
+                        <span class="tag">
+                            <?= htmlspecialchars($category) ?>
+                        </span>
+                        <div class="img-wrap">
+                            <div class="img"
+                            style="background-image:url('<?= $cover ?>')">
+                            </div>
+
+                        </div>
+
+                        <div class="location-box">
+
+                            <h5 style="color:white;font-weight:bold;">
+                                <?= htmlspecialchars($item['name']) ?>
+                            </h5>
+                            <small>
+                                <i class="fa fa-map-marker"></i>
+                                <?= htmlspecialchars($item['district']) ?>
+                            </small>
+                            <!-- <small>
+                                <?= htmlspecialchars($item['ownership']) ?>
+                            </small> -->
+
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <?php endwhile; ?>
+            </div>
 
         </div>
     </section>
@@ -290,51 +351,51 @@
      gtag('config', 'G-V0S9GRM6LS');
 
      
-    fetch('card-location.json')
-    .then(res => res.json())
-    .then(data => {
+    // fetch('card-location.json')
+    // .then(res => res.json())
+    // .then(data => {
 
-        const container = document.getElementById('featured-list');
+    //     const container = document.getElementById('featured-list');
 
-        const featured = data.slice(0, 3);
-        featured.forEach(item => {
+    //     const featured = data.slice(0, 3);
+    //     featured.forEach(item => {
 
-            const col = document.createElement('div');
-            col.className = 'col-md-4 item';
-            col.setAttribute('data-category', item.category);
+    //         const col = document.createElement('div');
+    //         col.className = 'col-md-4 item';
+    //         col.setAttribute('data-category', item.category);
 
-            col.innerHTML = `
-            <a href="${item.link}">
-                <div class="project-wrap">
+    //         col.innerHTML = `
+    //         <a href="${item.link}">
+    //             <div class="project-wrap">
 
-                    <span class="tag">
-                        ${item.category}
-                    </span>
+    //                 <span class="tag">
+    //                     ${item.category}
+    //                 </span>
 
-                    <div class="img-wrap">
-                        <div class="img"
-                            style="background-image:url(${item.image})">
-                        </div>
-                    </div>
+    //                 <div class="img-wrap">
+    //                     <div class="img"
+    //                         style="background-image:url(${item.image})">
+    //                     </div>
+    //                 </div>
 
-                    <div class="location-box">
-                        <h5 style="color:white;font-weight:bold;">
-                            ${item.title}
-                        </h5>
+    //                 <div class="location-box">
+    //                     <h5 style="color:white;font-weight:bold;">
+    //                         ${item.title}
+    //                     </h5>
 
-                        <small>
-                            <i class="fa fa-map-marker"></i>
-                            ${item.location}
-                        </small>
-                    </div>
+    //                     <small>
+    //                         <i class="fa fa-map-marker"></i>
+    //                         ${item.location}
+    //                     </small>
+    //                 </div>
 
-                </div>
-            </a>
-        `;
+    //             </div>
+    //         </a>
+    //     `;
 
-            container.appendChild(col);
-        });
-    });
+    //         container.appendChild(col);
+    //     });
+    // });
 
     function openVideo() {
         const modal = document.getElementById("videoModal");

@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    background:#f6f7fb;
+    font-family:Arial,sans-serif;
+}
+
+.main{
+    margin-left:250px;
+    padding:30px;
+}
+
+.card{
+    border:none;
+    border-radius:16px;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+.sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+
+    width:250px;
+    height:100vh;
+
+    background:#1f2937;
+    color:white;
+}
+
+.brand{
+    padding:25px;
+    font-size:22px;
+    font-weight:bold;
+    text-align:center;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.sidebar ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.sidebar li a{
+    display:block;
+    padding:16px 25px;
+    color:white;
+    text-decoration:none;
+}
+
+.sidebar li a:hover{
+    background:#374151;
+}
+
+.content{
+    margin-left:250px;
+    padding:30px;
+}
+
+.stat-card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.stat-card h3{
+    font-size:36px;
+    font-weight:700;
+}
+
+.stat-card p{
+    margin:0;
+    color:#777;
+}
