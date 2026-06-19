@@ -193,21 +193,15 @@ $locations = mysqli_query(
                                 style="
                                 color:white;
                                 font-weight:bold;
-                                "
-                                >
+                                ">
 
                                 <?= htmlspecialchars($item['name']) ?>
 
                                 </h5>
 
                                 <small>
-
-                                <i class="fa fa-map-marker"></i>
-
-                                <?= htmlspecialchars(
-                                    $item['manager']
-                                ) ?>
-
+                                    <i class="fa fa-map-marker"></i>
+                                    <?= htmlspecialchars($item['district']) ?>
                                 </small>
 
                             </div>
