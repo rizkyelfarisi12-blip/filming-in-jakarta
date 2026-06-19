@@ -12,6 +12,9 @@ trim($_GET['category'] ?? '');
 $status =
 trim($_GET['status'] ?? '');
 
+$sort =
+trim($_GET['sort'] ?? '');
+
 $where = [];
 
 if($keyword){
@@ -54,9 +57,21 @@ if(count($where)>0){
     );
 }
 
-$sql .= "
-ORDER BY name ASC
-";
+$orderBy = "name ASC";
+
+if($sort == "updated_desc"){
+    $orderBy = "updated_at DESC";
+}
+
+if($sort == "updated_asc"){
+    $orderBy = "updated_at ASC";
+}
+
+if($sort == "name_desc"){
+    $orderBy = "name DESC";
+}
+
+$sql .= " ORDER BY ".$orderBy;
 
 $locations =
 mysqli_query(
@@ -194,6 +209,36 @@ include "includes/sidebar.php";
                 </div>
 
                 <div class="col-md-3">
+                <select name="sort" class="form-select">
+
+                    <option value="">
+                    Sort By
+                    </option>
+
+                    <option value="updated_desc"
+                    <?= $sort=='updated_desc' ? 'selected' : '' ?>>
+                    Last Updated (Newest)
+                    </option>
+
+                    <option value="updated_asc"
+                    <?= $sort=='updated_asc' ? 'selected' : '' ?>>
+                    Last Updated (Oldest)
+                    </option>
+
+                    <option value="name_asc"
+                    <?= $sort=='name_asc' ? 'selected' : '' ?>>
+                    Name A-Z
+                    </option>
+
+                    <option value="name_desc"
+                    <?= $sort=='name_desc' ? 'selected' : '' ?>>
+                    Name Z-A
+                    </option>
+
+                </select>
+            </div>
+
+                <div class="col-md-3">
 
                     <button class="btn btn-primary">
                     Filter
@@ -232,6 +277,7 @@ include "includes/sidebar.php";
                     <th>Status</th>
                     <th>Gallery</th>
                     <th>Action</th>
+                    <th>Last Updated</th>
 
                     </tr>
 
@@ -319,6 +365,13 @@ include "includes/sidebar.php";
                                 <a href="locations/gallery.php?id=<?= $loc['id'] ?>"
                                 class="btn btn-sm btn-dark">Gallery</a>
 
+                            </td>
+
+                            <td>
+                            <?= date(
+                                'd M Y H:i',
+                                strtotime($loc['updated_at'])
+                            ) ?>
                             </td>
 
                         </tr>
