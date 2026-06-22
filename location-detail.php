@@ -145,8 +145,7 @@ json_decode(
             <div class="text-center text-center mb-4">
                 <h2
                 class="title-asset"
-                style="text-align:left;padding-left:10px;padding-bottom:20px;"
-                >
+                style="text-align:left;padding-left:10px;padding-bottom:20px;">
                 <?= htmlspecialchars($location['name']) ?>
                 </h2>
                 <div class="row align-items-start">

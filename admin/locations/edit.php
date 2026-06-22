@@ -305,44 +305,44 @@ json_decode(
                         value="<?= htmlspecialchars($data['ownership']) ?>">
 
                     </div>
-<div class="col-md-6 mb-3">
-                            <label>District</label>
+                        <div class="col-md-6 mb-3">
+                        <label>District</label>
 
-                                <select
-                                    name="district"
-                                    class="form-select"
-                                    required>
+                            <select
+                                name="district"
+                                class="form-select"
+                                required>
 
-                                    <option value="">
-                                    Select District
-                                    </option>
+                                <option value="">
+                                Select District
+                                </option>
 
-                                    <option value="Jakarta Pusat">
-                                    Jakarta Pusat
-                                    </option>
+                                <option value="Jakarta Pusat">
+                                Jakarta Pusat
+                                </option>
 
-                                    <option value="Jakarta Selatan">
-                                    Jakarta Selatan
-                                    </option>
+                                <option value="Jakarta Selatan">
+                                Jakarta Selatan
+                                </option>
 
-                                    <option value="Jakarta Barat">
-                                    Jakarta Barat
-                                    </option>
+                                <option value="Jakarta Barat">
+                                Jakarta Barat
+                                </option>
 
-                                    <option value="Jakarta Timur">
-                                    Jakarta Timur
-                                    </option>
+                                <option value="Jakarta Timur">
+                                Jakarta Timur
+                                </option>
 
-                                    <option value="Jakarta Utara">
-                                    Jakarta Utara
-                                    </option>
+                                <option value="Jakarta Utara">
+                                Jakarta Utara
+                                </option>
 
-                                    <option value="Kepulauan Seribu">
-                                    Kepulauan Seribu
-                                    </option>
+                                <option value="Kepulauan Seribu">
+                                Kepulauan Seribu
+                                </option>
 
-                                </select>
-                            </div>
+                            </select>
+                        </div>
 
                     <div class="col-md-6 mb-3">
 

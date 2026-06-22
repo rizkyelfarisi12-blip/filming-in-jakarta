@@ -181,9 +181,7 @@ $locations = mysqli_query(
                             style="
                             background-image:url(
                             uploads/covers/<?= $item['cover_image'] ?>
-                            );
-                            "
-                            ></div>
+                            );"></div>
 
                             </div>
 
@@ -192,8 +190,7 @@ $locations = mysqli_query(
                                 <h5
                                 style="
                                 color:white;
-                                font-weight:bold;
-                                ">
+                                font-weight:bold;">
 
                                 <?= htmlspecialchars($item['name']) ?>
 
