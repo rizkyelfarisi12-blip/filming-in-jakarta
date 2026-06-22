@@ -5142,13 +5142,13 @@ input[type="button"].btn-block {
 }
 
 .logo-brand {
-  content: url(../icon/filming&in&jakarta&W.png);
+  content: url(../icon/fij&white&orange.png);
   width: 100px;
   position: relative;
 }
 
 .scrolled .logo-brand {
-  content: url(../icon/filming&in&jakarta&B.png);
+  content: url(../icon/fij&black&orange.png);
 }
 
 
