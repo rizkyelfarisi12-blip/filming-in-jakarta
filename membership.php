@@ -939,22 +939,22 @@ footer{
 
 <section class="cta">
 
-<div class="container text-center">
+    <div class="container text-center">
 
-    <h2 style="color:#fff; padding:80px 0; font-size:42px; font-weight:700;">
-        Ready to Join the Jakarta Film Community?
-    </h2>
+        <h2 style="color:#fff; padding:80px 0; font-size:42px; font-weight:700;">
+            Ready to Join the Jakarta Film Community?
+        </h2>
 
-    <p class="mt-3">
-        Register today and become part of the official
-        Filming in Jakarta ecosystem.
-    </p>
+        <p class="mt-3">
+            Register today and become part of the official
+            Filming in Jakarta ecosystem.
+        </p>
 
-    <a href="#register" class="btn btn-orange mt-3">
-        Register Now
-    </a>
+        <a href="#register" class="btn btn-orange mt-3">
+            Register Now
+        </a>
 
-</div>
+    </div>
 
 </section>
 
